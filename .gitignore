@@ -2,9 +2,9 @@
 data/raw/*
 !data/raw/.gitkeep
 
-# Datos procesados (regenerables)
-data/processed/*
-!data/processed/.gitkeep
+# Datos procesados: SÍ se trackean los CSVs (son chicos, ~2 MB) para que la app
+# arranque al clonar sin tener que copiar data/raw/ (2.6 GB).
+# Si aquí caen archivos pesados en el futuro, ignóralos explícitamente.
 
 # Python
 __pycache__/

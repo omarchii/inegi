@@ -1,0 +1,897 @@
+entidad,anio,total_accidentes
+Aguascalientes,1997,11199
+Aguascalientes,1998,9327
+Aguascalientes,1999,4263
+Aguascalientes,2000,12594
+Aguascalientes,2001,13151
+Aguascalientes,2002,13510
+Aguascalientes,2003,12607
+Aguascalientes,2004,10797
+Aguascalientes,2005,12232
+Aguascalientes,2006,14868
+Aguascalientes,2007,17210
+Aguascalientes,2008,16121
+Aguascalientes,2009,15500
+Aguascalientes,2010,6032
+Aguascalientes,2011,14164
+Aguascalientes,2012,12834
+Aguascalientes,2013,10966
+Aguascalientes,2014,10014
+Aguascalientes,2015,7958
+Aguascalientes,2016,7500
+Aguascalientes,2017,12371
+Aguascalientes,2018,12431
+Aguascalientes,2019,13225
+Aguascalientes,2020,11810
+Aguascalientes,2021,13254
+Aguascalientes,2022,4552
+Aguascalientes,2023,4487
+Aguascalientes,2024,4284
+Baja California,1997,6318
+Baja California,1998,10558
+Baja California,1999,15690
+Baja California,2000,9857
+Baja California,2001,10482
+Baja California,2002,11160
+Baja California,2003,12682
+Baja California,2004,13903
+Baja California,2005,14538
+Baja California,2006,15424
+Baja California,2007,15497
+Baja California,2008,13855
+Baja California,2009,12544
+Baja California,2010,20605
+Baja California,2011,10773
+Baja California,2012,10604
+Baja California,2013,10430
+Baja California,2014,9650
+Baja California,2015,8322
+Baja California,2016,8321
+Baja California,2017,8166
+Baja California,2018,7622
+Baja California,2019,7904
+Baja California,2020,6949
+Baja California,2021,7587
+Baja California,2022,14245
+Baja California,2023,11782
+Baja California,2024,11893
+Baja California Sur,1997,6567
+Baja California Sur,1998,4955
+Baja California Sur,1999,3037
+Baja California Sur,2000,6005
+Baja California Sur,2001,6472
+Baja California Sur,2002,6503
+Baja California Sur,2003,6649
+Baja California Sur,2004,7089
+Baja California Sur,2005,8816
+Baja California Sur,2006,9776
+Baja California Sur,2007,9718
+Baja California Sur,2008,9819
+Baja California Sur,2009,9844
+Baja California Sur,2010,5124
+Baja California Sur,2011,8654
+Baja California Sur,2012,8026
+Baja California Sur,2013,9305
+Baja California Sur,2014,8608
+Baja California Sur,2015,7672
+Baja California Sur,2016,6919
+Baja California Sur,2017,6952
+Baja California Sur,2018,7391
+Baja California Sur,2019,7381
+Baja California Sur,2020,6262
+Baja California Sur,2021,7245
+Baja California Sur,2022,5475
+Baja California Sur,2023,6045
+Baja California Sur,2024,6248
+Campeche,1997,9830
+Campeche,1998,7568
+Campeche,1999,2099
+Campeche,2000,9409
+Campeche,2001,10762
+Campeche,2002,14820
+Campeche,2003,16069
+Campeche,2004,18336
+Campeche,2005,17239
+Campeche,2006,16727
+Campeche,2007,15752
+Campeche,2008,20369
+Campeche,2009,17222
+Campeche,2010,4599
+Campeche,2011,13930
+Campeche,2012,15076
+Campeche,2013,14790
+Campeche,2014,12977
+Campeche,2015,12407
+Campeche,2016,10062
+Campeche,2017,12666
+Campeche,2018,10163
+Campeche,2019,6913
+Campeche,2020,9268
+Campeche,2021,10082
+Campeche,2022,3623
+Campeche,2023,4591
+Campeche,2024,3800
+Chiapas,1997,3016
+Chiapas,1998,3968
+Chiapas,1999,1378
+Chiapas,2000,5940
+Chiapas,2001,6448
+Chiapas,2002,6985
+Chiapas,2003,7255
+Chiapas,2004,7747
+Chiapas,2005,8241
+Chiapas,2006,11643
+Chiapas,2007,10516
+Chiapas,2008,11379
+Chiapas,2009,9668
+Chiapas,2010,3481
+Chiapas,2011,9637
+Chiapas,2012,9224
+Chiapas,2013,8537
+Chiapas,2014,8945
+Chiapas,2015,8552
+Chiapas,2016,8077
+Chiapas,2017,7963
+Chiapas,2018,8957
+Chiapas,2019,10761
+Chiapas,2020,7202
+Chiapas,2021,7031
+Chiapas,2022,5205
+Chiapas,2023,5217
+Chiapas,2024,4435
+Chihuahua,1997,1127
+Chihuahua,1998,1188
+Chihuahua,1999,37396
+Chihuahua,2000,1520
+Chihuahua,2001,1666
+Chihuahua,2002,2059
+Chihuahua,2003,2042
+Chihuahua,2004,2279
+Chihuahua,2005,3485
+Chihuahua,2006,4184
+Chihuahua,2007,5468
+Chihuahua,2008,5265
+Chihuahua,2009,4684
+Chihuahua,2010,35167
+Chihuahua,2011,4183
+Chihuahua,2012,4067
+Chihuahua,2013,3984
+Chihuahua,2014,3774
+Chihuahua,2015,3718
+Chihuahua,2016,3618
+Chihuahua,2017,3581
+Chihuahua,2018,3370
+Chihuahua,2019,3451
+Chihuahua,2020,2818
+Chihuahua,2021,3287
+Chihuahua,2022,25578
+Chihuahua,2023,26723
+Chihuahua,2024,26884
+Ciudad de México,1997,2248
+Ciudad de México,1998,2429
+Ciudad de México,1999,10512
+Ciudad de México,2000,3169
+Ciudad de México,2001,3649
+Ciudad de México,2002,5815
+Ciudad de México,2003,6184
+Ciudad de México,2004,6286
+Ciudad de México,2005,6064
+Ciudad de México,2006,6676
+Ciudad de México,2007,6879
+Ciudad de México,2008,6565
+Ciudad de México,2009,5408
+Ciudad de México,2010,14729
+Ciudad de México,2011,4066
+Ciudad de México,2012,4403
+Ciudad de México,2013,5042
+Ciudad de México,2014,4464
+Ciudad de México,2015,4313
+Ciudad de México,2016,4395
+Ciudad de México,2017,4273
+Ciudad de México,2018,3573
+Ciudad de México,2019,3303
+Ciudad de México,2020,2925
+Ciudad de México,2021,3583
+Ciudad de México,2022,7596
+Ciudad de México,2023,7276
+Ciudad de México,2024,6655
+Coahuila,1997,8906
+Coahuila,1998,8301
+Coahuila,1999,14613
+Coahuila,2000,8592
+Coahuila,2001,9544
+Coahuila,2002,10760
+Coahuila,2003,10704
+Coahuila,2004,13582
+Coahuila,2005,14356
+Coahuila,2006,16174
+Coahuila,2007,16741
+Coahuila,2008,15735
+Coahuila,2009,15554
+Coahuila,2010,14773
+Coahuila,2011,15501
+Coahuila,2012,15089
+Coahuila,2013,14731
+Coahuila,2014,12688
+Coahuila,2015,11789
+Coahuila,2016,11292
+Coahuila,2017,11269
+Coahuila,2018,10622
+Coahuila,2019,10604
+Coahuila,2020,8968
+Coahuila,2021,14119
+Coahuila,2022,11159
+Coahuila,2023,11008
+Coahuila,2024,10737
+Colima,1997,6957
+Colima,1998,6984
+Colima,1999,3403
+Colima,2000,6995
+Colima,2001,8721
+Colima,2002,8697
+Colima,2003,10347
+Colima,2004,11708
+Colima,2005,11841
+Colima,2006,13135
+Colima,2007,13342
+Colima,2008,14753
+Colima,2009,12986
+Colima,2010,6983
+Colima,2011,14517
+Colima,2012,14121
+Colima,2013,14224
+Colima,2014,15145
+Colima,2015,18474
+Colima,2016,13316
+Colima,2017,13319
+Colima,2018,13012
+Colima,2019,13313
+Colima,2020,11133
+Colima,2021,10198
+Colima,2022,6113
+Colima,2023,6228
+Colima,2024,6602
+Durango,1997,3077
+Durango,1998,2469
+Durango,1999,6803
+Durango,2000,2770
+Durango,2001,3123
+Durango,2002,3925
+Durango,2003,3989
+Durango,2004,4263
+Durango,2005,4521
+Durango,2006,4795
+Durango,2007,5164
+Durango,2008,4766
+Durango,2009,4433
+Durango,2010,6922
+Durango,2011,4537
+Durango,2012,4611
+Durango,2013,4107
+Durango,2014,4788
+Durango,2015,4861
+Durango,2016,4669
+Durango,2017,4451
+Durango,2018,4856
+Durango,2019,4237
+Durango,2020,3580
+Durango,2021,3799
+Durango,2022,10766
+Durango,2023,11658
+Durango,2024,10936
+Guanajuato,1997,1601
+Guanajuato,1998,1492
+Guanajuato,1999,11346
+Guanajuato,2000,1841
+Guanajuato,2001,2007
+Guanajuato,2002,2279
+Guanajuato,2003,1962
+Guanajuato,2004,2374
+Guanajuato,2005,2721
+Guanajuato,2006,3631
+Guanajuato,2007,4165
+Guanajuato,2008,4361
+Guanajuato,2009,4997
+Guanajuato,2010,19021
+Guanajuato,2011,4185
+Guanajuato,2012,4017
+Guanajuato,2013,3799
+Guanajuato,2014,3911
+Guanajuato,2015,4221
+Guanajuato,2016,4777
+Guanajuato,2017,4269
+Guanajuato,2018,4143
+Guanajuato,2019,4153
+Guanajuato,2020,3457
+Guanajuato,2021,4334
+Guanajuato,2022,16727
+Guanajuato,2023,17737
+Guanajuato,2024,18623
+Guerrero,1997,2330
+Guerrero,1998,2211
+Guerrero,1999,2414
+Guerrero,2000,3614
+Guerrero,2001,4051
+Guerrero,2002,3754
+Guerrero,2003,3589
+Guerrero,2004,4025
+Guerrero,2005,6293
+Guerrero,2006,7701
+Guerrero,2007,7334
+Guerrero,2008,5436
+Guerrero,2009,4252
+Guerrero,2010,4237
+Guerrero,2011,4792
+Guerrero,2012,4635
+Guerrero,2013,3873
+Guerrero,2014,3944
+Guerrero,2015,4031
+Guerrero,2016,3746
+Guerrero,2017,3777
+Guerrero,2018,4012
+Guerrero,2019,5116
+Guerrero,2020,3724
+Guerrero,2021,3512
+Guerrero,2022,8049
+Guerrero,2023,7823
+Guerrero,2024,7734
+Hidalgo,1997,1036
+Hidalgo,1998,1577
+Hidalgo,1999,2260
+Hidalgo,2000,2301
+Hidalgo,2001,3313
+Hidalgo,2002,3170
+Hidalgo,2003,3104
+Hidalgo,2004,3748
+Hidalgo,2005,4498
+Hidalgo,2006,3973
+Hidalgo,2007,4212
+Hidalgo,2008,4749
+Hidalgo,2009,4532
+Hidalgo,2010,4388
+Hidalgo,2011,3539
+Hidalgo,2012,3368
+Hidalgo,2013,3678
+Hidalgo,2014,3689
+Hidalgo,2015,3142
+Hidalgo,2016,3919
+Hidalgo,2017,4000
+Hidalgo,2018,3636
+Hidalgo,2019,3707
+Hidalgo,2020,3580
+Hidalgo,2021,3822
+Hidalgo,2022,4095
+Hidalgo,2023,5378
+Hidalgo,2024,6314
+Jalisco,1997,4896
+Jalisco,1998,4566
+Jalisco,1999,29325
+Jalisco,2000,5709
+Jalisco,2001,7051
+Jalisco,2002,8023
+Jalisco,2003,9073
+Jalisco,2004,10786
+Jalisco,2005,10739
+Jalisco,2006,10577
+Jalisco,2007,9995
+Jalisco,2008,9867
+Jalisco,2009,9472
+Jalisco,2010,56644
+Jalisco,2011,12856
+Jalisco,2012,12128
+Jalisco,2013,12333
+Jalisco,2014,9793
+Jalisco,2015,9594
+Jalisco,2016,11669
+Jalisco,2017,11176
+Jalisco,2018,12643
+Jalisco,2019,11357
+Jalisco,2020,7849
+Jalisco,2021,8184
+Jalisco,2022,14960
+Jalisco,2023,15135
+Jalisco,2024,18793
+Michoacán,1997,2057
+Michoacán,1998,1817
+Michoacán,1999,5607
+Michoacán,2000,2051
+Michoacán,2001,1777
+Michoacán,2002,2521
+Michoacán,2003,2503
+Michoacán,2004,2733
+Michoacán,2005,2820
+Michoacán,2006,2779
+Michoacán,2007,2746
+Michoacán,2008,2445
+Michoacán,2009,2433
+Michoacán,2010,8711
+Michoacán,2011,2980
+Michoacán,2012,2843
+Michoacán,2013,3197
+Michoacán,2014,2727
+Michoacán,2015,2756
+Michoacán,2016,2595
+Michoacán,2017,2697
+Michoacán,2018,2487
+Michoacán,2019,2611
+Michoacán,2020,2001
+Michoacán,2021,2116
+Michoacán,2022,17784
+Michoacán,2023,16525
+Michoacán,2024,16232
+Morelos,1997,6261
+Morelos,1998,6175
+Morelos,1999,907
+Morelos,2000,7817
+Morelos,2001,8817
+Morelos,2002,11415
+Morelos,2003,12431
+Morelos,2004,11768
+Morelos,2005,11159
+Morelos,2006,11232
+Morelos,2007,11490
+Morelos,2008,10481
+Morelos,2009,10367
+Morelos,2010,9449
+Morelos,2011,10002
+Morelos,2012,10695
+Morelos,2013,10099
+Morelos,2014,8963
+Morelos,2015,8737
+Morelos,2016,8618
+Morelos,2017,8192
+Morelos,2018,6816
+Morelos,2019,7669
+Morelos,2020,5027
+Morelos,2021,6541
+Morelos,2022,9336
+Morelos,2023,8868
+Morelos,2024,8792
+México,1997,3030
+México,1998,1973
+México,1999,14122
+México,2000,1842
+México,2001,2753
+México,2002,2635
+México,2003,2900
+México,2004,3289
+México,2005,3688
+México,2006,3483
+México,2007,3575
+México,2008,4016
+México,2009,3230
+México,2010,25161
+México,2011,2899
+México,2012,3583
+México,2013,3386
+México,2014,3113
+México,2015,2750
+México,2016,2876
+México,2017,2745
+México,2018,2849
+México,2019,2646
+México,2020,2041
+México,2021,2184
+México,2022,19091
+México,2023,21105
+México,2024,20685
+Nayarit,1997,5457
+Nayarit,1998,4832
+Nayarit,1999,1050
+Nayarit,2000,5853
+Nayarit,2001,5871
+Nayarit,2002,7368
+Nayarit,2003,6731
+Nayarit,2004,7174
+Nayarit,2005,6833
+Nayarit,2006,8937
+Nayarit,2007,9822
+Nayarit,2008,9309
+Nayarit,2009,8455
+Nayarit,2010,2516
+Nayarit,2011,6550
+Nayarit,2012,6117
+Nayarit,2013,5252
+Nayarit,2014,5763
+Nayarit,2015,6813
+Nayarit,2016,9532
+Nayarit,2017,10894
+Nayarit,2018,10775
+Nayarit,2019,10880
+Nayarit,2020,9677
+Nayarit,2021,9968
+Nayarit,2022,2679
+Nayarit,2023,2880
+Nayarit,2024,2715
+Nuevo León,1997,15609
+Nuevo León,1998,18742
+Nuevo León,1999,45738
+Nuevo León,2000,21019
+Nuevo León,2001,23867
+Nuevo León,2002,25850
+Nuevo León,2003,25748
+Nuevo León,2004,26793
+Nuevo León,2005,28414
+Nuevo León,2006,28698
+Nuevo León,2007,27140
+Nuevo León,2008,26614
+Nuevo León,2009,27192
+Nuevo León,2010,75486
+Nuevo León,2011,27805
+Nuevo León,2012,24964
+Nuevo León,2013,22403
+Nuevo León,2014,23564
+Nuevo León,2015,25419
+Nuevo León,2016,22682
+Nuevo León,2017,21359
+Nuevo León,2018,18395
+Nuevo León,2019,16145
+Nuevo León,2020,12053
+Nuevo León,2021,18943
+Nuevo León,2022,76761
+Nuevo León,2023,80740
+Nuevo León,2024,76390
+Oaxaca,1997,5463
+Oaxaca,1998,4935
+Oaxaca,1999,2262
+Oaxaca,2000,6574
+Oaxaca,2001,7097
+Oaxaca,2002,8017
+Oaxaca,2003,9573
+Oaxaca,2004,11692
+Oaxaca,2005,11711
+Oaxaca,2006,13121
+Oaxaca,2007,12702
+Oaxaca,2008,12455
+Oaxaca,2009,9786
+Oaxaca,2010,3378
+Oaxaca,2011,8278
+Oaxaca,2012,7855
+Oaxaca,2013,7670
+Oaxaca,2014,6675
+Oaxaca,2015,7912
+Oaxaca,2016,8119
+Oaxaca,2017,8553
+Oaxaca,2018,7900
+Oaxaca,2019,6201
+Oaxaca,2020,4762
+Oaxaca,2021,3865
+Oaxaca,2022,11544
+Oaxaca,2023,11361
+Oaxaca,2024,10979
+Puebla,1997,2332
+Puebla,1998,2750
+Puebla,1999,1709
+Puebla,2000,2896
+Puebla,2001,5560
+Puebla,2002,5282
+Puebla,2003,6542
+Puebla,2004,7933
+Puebla,2005,8357
+Puebla,2006,8451
+Puebla,2007,7151
+Puebla,2008,6523
+Puebla,2009,5659
+Puebla,2010,11312
+Puebla,2011,5874
+Puebla,2012,6773
+Puebla,2013,7505
+Puebla,2014,7575
+Puebla,2015,7510
+Puebla,2016,7718
+Puebla,2017,8089
+Puebla,2018,7760
+Puebla,2019,7797
+Puebla,2020,6209
+Puebla,2021,7374
+Puebla,2022,14231
+Puebla,2023,15205
+Puebla,2024,14703
+Querétaro,1997,637
+Querétaro,1998,872
+Querétaro,1999,4103
+Querétaro,2000,1695
+Querétaro,2001,2880
+Querétaro,2002,3501
+Querétaro,2003,4541
+Querétaro,2004,4479
+Querétaro,2005,4161
+Querétaro,2006,3397
+Querétaro,2007,4173
+Querétaro,2008,3653
+Querétaro,2009,2942
+Querétaro,2010,11642
+Querétaro,2011,1964
+Querétaro,2012,2728
+Querétaro,2013,3097
+Querétaro,2014,2672
+Querétaro,2015,3997
+Querétaro,2016,4006
+Querétaro,2017,4249
+Querétaro,2018,3485
+Querétaro,2019,3388
+Querétaro,2020,2694
+Querétaro,2021,2998
+Querétaro,2022,10781
+Querétaro,2023,9326
+Querétaro,2024,8887
+Quintana Roo,1997,343
+Quintana Roo,1998,511
+Quintana Roo,1999,4866
+Quintana Roo,2000,770
+Quintana Roo,2001,823
+Quintana Roo,2002,836
+Quintana Roo,2003,900
+Quintana Roo,2004,944
+Quintana Roo,2005,854
+Quintana Roo,2006,862
+Quintana Roo,2007,1090
+Quintana Roo,2008,1040
+Quintana Roo,2009,1146
+Quintana Roo,2010,8841
+Quintana Roo,2011,1049
+Quintana Roo,2012,978
+Quintana Roo,2013,1367
+Quintana Roo,2014,1375
+Quintana Roo,2015,1295
+Quintana Roo,2016,1440
+Quintana Roo,2017,1382
+Quintana Roo,2018,1197
+Quintana Roo,2019,1212
+Quintana Roo,2020,1130
+Quintana Roo,2021,1150
+Quintana Roo,2022,7728
+Quintana Roo,2023,6619
+Quintana Roo,2024,7081
+San Luis Potosí,1997,544
+San Luis Potosí,1998,537
+San Luis Potosí,1999,5716
+San Luis Potosí,2000,754
+San Luis Potosí,2001,970
+San Luis Potosí,2002,975
+San Luis Potosí,2003,882
+San Luis Potosí,2004,1150
+San Luis Potosí,2005,1007
+San Luis Potosí,2006,1144
+San Luis Potosí,2007,1325
+San Luis Potosí,2008,1437
+San Luis Potosí,2009,1327
+San Luis Potosí,2010,4503
+San Luis Potosí,2011,1163
+San Luis Potosí,2012,1159
+San Luis Potosí,2013,1248
+San Luis Potosí,2014,1009
+San Luis Potosí,2015,1156
+San Luis Potosí,2016,1195
+San Luis Potosí,2017,1434
+San Luis Potosí,2018,1899
+San Luis Potosí,2019,1579
+San Luis Potosí,2020,1134
+San Luis Potosí,2021,1274
+San Luis Potosí,2022,8185
+San Luis Potosí,2023,7277
+San Luis Potosí,2024,7179
+Sinaloa,1997,2320
+Sinaloa,1998,2325
+Sinaloa,1999,8638
+Sinaloa,2000,2678
+Sinaloa,2001,2601
+Sinaloa,2002,2950
+Sinaloa,2003,3234
+Sinaloa,2004,3610
+Sinaloa,2005,3534
+Sinaloa,2006,3752
+Sinaloa,2007,3736
+Sinaloa,2008,3759
+Sinaloa,2009,3751
+Sinaloa,2010,12188
+Sinaloa,2011,2272
+Sinaloa,2012,1943
+Sinaloa,2013,2519
+Sinaloa,2014,2968
+Sinaloa,2015,3233
+Sinaloa,2016,3589
+Sinaloa,2017,3253
+Sinaloa,2018,3092
+Sinaloa,2019,3691
+Sinaloa,2020,3431
+Sinaloa,2021,3846
+Sinaloa,2022,7065
+Sinaloa,2023,7238
+Sinaloa,2024,5799
+Sonora,1997,5282
+Sonora,1998,7461
+Sonora,1999,15799
+Sonora,2000,12871
+Sonora,2001,14590
+Sonora,2002,16469
+Sonora,2003,15733
+Sonora,2004,15432
+Sonora,2005,15329
+Sonora,2006,12527
+Sonora,2007,12067
+Sonora,2008,9417
+Sonora,2009,6399
+Sonora,2010,13031
+Sonora,2011,6150
+Sonora,2012,9530
+Sonora,2013,8414
+Sonora,2014,7447
+Sonora,2015,8330
+Sonora,2016,6362
+Sonora,2017,7446
+Sonora,2018,5502
+Sonora,2019,6483
+Sonora,2020,8752
+Sonora,2021,8260
+Sonora,2022,25788
+Sonora,2023,27014
+Sonora,2024,25256
+Tabasco,1997,4039
+Tabasco,1998,5362
+Tabasco,1999,3372
+Tabasco,2000,4945
+Tabasco,2001,5558
+Tabasco,2002,5671
+Tabasco,2003,6256
+Tabasco,2004,6372
+Tabasco,2005,7681
+Tabasco,2006,7387
+Tabasco,2007,6275
+Tabasco,2008,5978
+Tabasco,2009,6403
+Tabasco,2010,3929
+Tabasco,2011,3966
+Tabasco,2012,2398
+Tabasco,2013,3272
+Tabasco,2014,3501
+Tabasco,2015,4952
+Tabasco,2016,4925
+Tabasco,2017,4735
+Tabasco,2018,4042
+Tabasco,2019,4332
+Tabasco,2020,3638
+Tabasco,2021,4141
+Tabasco,2022,2591
+Tabasco,2023,2529
+Tabasco,2024,2572
+Tamaulipas,1997,3888
+Tamaulipas,1998,4391
+Tamaulipas,1999,13353
+Tamaulipas,2000,4193
+Tamaulipas,2001,4943
+Tamaulipas,2002,4426
+Tamaulipas,2003,4593
+Tamaulipas,2004,6010
+Tamaulipas,2005,6312
+Tamaulipas,2006,6522
+Tamaulipas,2007,7948
+Tamaulipas,2008,6056
+Tamaulipas,2009,4600
+Tamaulipas,2010,13082
+Tamaulipas,2011,4044
+Tamaulipas,2012,4727
+Tamaulipas,2013,4385
+Tamaulipas,2014,4634
+Tamaulipas,2015,4967
+Tamaulipas,2016,4191
+Tamaulipas,2017,3775
+Tamaulipas,2018,3834
+Tamaulipas,2019,4492
+Tamaulipas,2020,3713
+Tamaulipas,2021,4430
+Tamaulipas,2022,15121
+Tamaulipas,2023,14295
+Tamaulipas,2024,13608
+Tlaxcala,1997,2159
+Tlaxcala,1998,2264
+Tlaxcala,1999,731
+Tlaxcala,2000,2360
+Tlaxcala,2001,2643
+Tlaxcala,2002,2496
+Tlaxcala,2003,2621
+Tlaxcala,2004,2804
+Tlaxcala,2005,3128
+Tlaxcala,2006,3111
+Tlaxcala,2007,2984
+Tlaxcala,2008,3031
+Tlaxcala,2009,3170
+Tlaxcala,2010,2846
+Tlaxcala,2011,2753
+Tlaxcala,2012,2652
+Tlaxcala,2013,2138
+Tlaxcala,2014,2154
+Tlaxcala,2015,2266
+Tlaxcala,2016,2346
+Tlaxcala,2017,2310
+Tlaxcala,2018,2640
+Tlaxcala,2019,2979
+Tlaxcala,2020,2758
+Tlaxcala,2021,2913
+Tlaxcala,2022,2373
+Tlaxcala,2023,2090
+Tlaxcala,2024,2220
+Veracruz,1997,8861
+Veracruz,1998,9598
+Veracruz,1999,6737
+Veracruz,2000,8973
+Veracruz,2001,11000
+Veracruz,2002,10566
+Veracruz,2003,9966
+Veracruz,2004,7795
+Veracruz,2005,7920
+Veracruz,2006,8284
+Veracruz,2007,7312
+Veracruz,2008,6533
+Veracruz,2009,5922
+Veracruz,2010,8338
+Veracruz,2011,5282
+Veracruz,2012,4623
+Veracruz,2013,4263
+Veracruz,2014,7094
+Veracruz,2015,6391
+Veracruz,2016,5278
+Veracruz,2017,5099
+Veracruz,2018,4827
+Veracruz,2019,4782
+Veracruz,2020,3620
+Veracruz,2021,10274
+Veracruz,2022,11924
+Veracruz,2023,11224
+Veracruz,2024,12247
+Yucatán,1997,737
+Yucatán,1998,865
+Yucatán,1999,4009
+Yucatán,2000,995
+Yucatán,2001,1197
+Yucatán,2002,1296
+Yucatán,2003,1271
+Yucatán,2004,1681
+Yucatán,2005,1613
+Yucatán,2006,2046
+Yucatán,2007,1963
+Yucatán,2008,2023
+Yucatán,2009,2207
+Yucatán,2010,7483
+Yucatán,2011,2365
+Yucatán,2012,2410
+Yucatán,2013,2571
+Yucatán,2014,2327
+Yucatán,2015,2651
+Yucatán,2016,2693
+Yucatán,2017,2196
+Yucatán,2018,2343
+Yucatán,2019,2195
+Yucatán,2020,2068
+Yucatán,2021,2378
+Yucatán,2022,9015
+Yucatán,2023,8637
+Yucatán,2024,8620
+Zacatecas,1997,2221
+Zacatecas,1998,2684
+Zacatecas,1999,2236
+Zacatecas,2000,2901
+Zacatecas,2001,3054
+Zacatecas,2002,5162
+Zacatecas,2003,5935
+Zacatecas,2004,6894
+Zacatecas,2005,8376
+Zacatecas,2006,9020
+Zacatecas,2007,8289
+Zacatecas,2008,7971
+Zacatecas,2009,5771
+Zacatecas,2010,2666
+Zacatecas,2011,4479
+Zacatecas,2012,6138
+Zacatecas,2013,6094
+Zacatecas,2014,4217
+Zacatecas,2015,4406
+Zacatecas,2016,5084
+Zacatecas,2017,5065
+Zacatecas,2018,4406
+Zacatecas,2019,4164
+Zacatecas,2020,3826
+Zacatecas,2021,4718
+Zacatecas,2022,2570
+Zacatecas,2023,2607
+Zacatecas,2024,2724
