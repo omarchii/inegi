@@ -1,0 +1,1635 @@
+idx,intent,gold,qwen_finetune_pred
+0,ranking_accidentes,"1. Resumen
+En 2014, Nuevo León encabezó el ranking de accidentes viales con 23,564 incidentes registrados, seguida por Colima con 15,145.
+
+2. Datos principales
+- 1.° Nuevo León: 23,564 accidentes
+- 2.° Colima: 15,145 accidentes
+- 3.° Campeche: 12,977 accidentes
+- 4.° Coahuila: 12,688 accidentes
+- 5.° Aguascalientes: 10,014 accidentes
+
+3. Interpretación
+Las 5 entidades del ranking concentran 74,388 accidentes en 2014. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular.","1. Resumen
+En 2014, Nuevo León encabezó el ranking de accidentes viales con 23,564 incidentes registrados, seguida por Colima con 15,145.
+
+2. Datos principales
+- 1.° Nuevo León: 23,564 accidentes
+- 2.° Colima: 15,145 accidentes
+- 3.° Campeche: 12,977 accidentes
+- 4.° Coahuila: 12,688 accidentes
+- 5.° Aguascalientes: 10,014 accidentes
+
+3. Interpretación
+Las 5 entidades del ranking concentran 72,380 accidentes en 2014. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular."
+1,relacion_ventas_accidentes_nacional,"1. Resumen
+Para el período 2019-2022, la correlación de Pearson entre ventas nacionales de vehículos (autos y camiones) y accidentes viales es 0.111. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2019: ventas 1,360,071 unidades | accidentes 198,671
+- 2020: ventas 977,780 unidades | accidentes 168,059
+- 2021: ventas 1,046,740 unidades | accidentes 197,410
+- 2022: ventas 1,134,777 unidades | accidentes 392,710
+- Correlación de Pearson (2019-2022): 0.111
+
+3. Interpretación
+La correlación de Pearson es 0.111: asociación prácticamente nula entre ventas de vehículos (autos y camiones) y accidentes en el período analizado. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales no se capturan.
+- Factores confusores (demografía, cobertura ATUS, pandemia 2020) no están controlados.
+- Correlación no implica causalidad: no se puede afirmar que las ventas vehiculares causen los accidentes.","1. Resumen
+Para el período 2019-2022, la correlación de Pearson entre ventas nacionales de vehículos (autos y camiones) y accidentes viales es 0.111. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2019: ventas 1,360,071 unidades | accidentes 198,671
+- 2020: ventas 977,780 unidades | accidentes 168,059
+- 2021: ventas 1,046,740 unidades | accidentes 197,410
+- 2022: ventas 1,134,777 unidades | accidentes 392,710
+- Correlación de Pearson (2019-2022): 0.111
+
+3. Interpretación
+La correlación de Pearson es 0.111: asociación positiva moderada entre ventas de vehículos (autos y camiones) y accidentes, sin implicar causalidad directa. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales pueden estar subrepresentadas.
+- El tamaño del parque vehicular refleja tanto ventas como el régimen de licencias; no todos los vehículos están registrados."
+2,accidentes_por_tipo,"1. Resumen
+El tipo de accidente más frecuente en Yucatán es «Colisión con vehículo automotor» con 34,303 incidentes (42.0% del total). Le sigue «Colisión con motocicleta» con 13,416 (16.4%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 34,303 (42.0%)
+- 2.° Colisión con motocicleta: 13,416 (16.4%)
+- 3.° Colisión con peatón (atropellamiento): 12,011 (14.7%)
+- 4.° Certificado cero: 12,002 (14.7%)
+- 5.° Colisión con objeto fijo: 4,585 (5.6%)
+- 6.° Colisión con ciclista: 1,641 (2.0%)
+- 7.° Volcadura: 1,633 (2.0%)
+- 8.° Salida del camino: 1,351 (1.6%)
+- 9.° Colisión con animal: 526 (0.6%)
+- 10.° Otro: 247 (0.3%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en Yucatán; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza.","1. Resumen
+El tipo de accidente más frecuente en Yucatán es «Colisión con vehículo automotor» con 34,303 incidentes (41.9% del total). Le sigue «Colisión con motocicleta» con 13,416 (16.4%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 34,303 (41.9%)
+- 2.° Colisión con motocicleta: 13,416 (16.4%)
+- 3.° Colisión con peatón (atropellamiento): 12,011 (14.7%)
+- 4.° Certificado cero: 12,002 (14.7%)
+- 5.° Colisión con objeto fijo: 4,585 (5.6%)
+- 6.° Colisión con ciclista: 1,641 (2.0%)
+- 7.° Volcadura: 1,633 (2.0%)
+- 8.° Salida del camino: 1,351 (1.7%)
+- 9.° Colisión con animal: 526 (0.6%)
+- 10.° Otro: 247 (0.3%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en Yucatán; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza."
+3,estacionalidad_ventas_nacional,"1. Resumen
+En 2024, el mes con más ventas de vehículos (autos y camiones) fue noviembre (153,923 unidades); enero registró el mínimo (117,745 unidades).
+
+2. Datos principales
+- Enero: 117,745 unidades
+- Febrero: 119,518 unidades
+- Marzo: 130,606 unidades
+- Abril: 118,439 unidades
+- Mayo: 125,247 unidades
+- Junio: 128,480 unidades
+- Julio: 130,899 unidades
+- Agosto: 134,013 unidades
+- Septiembre: 122,462 unidades
+- Octubre: 128,699 unidades
+- Noviembre: 153,923 unidades
+- Diciembre: 152,584 unidades
+
+3. Interpretación
+El patrón mensual de ventas en 2024 muestra variaciones asociadas a campañas comerciales (fin de año, bono anual), temporadas de alto tráfico y la disponibilidad de inventario en distribuidoras.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado de seminuevos.","1. Resumen
+En 2024, el mes con más ventas de vehículos (autos y camiones) fue diciembre (152,584 unidades); septiembre registró el mínimo (122,462 unidades).
+
+2. Datos principales
+- Enero: 117,745 unidades
+- Febrero: 119,518 unidades
+- Marzo: 130,606 unidades
+- Abril: 118,439 unidades
+- Mayo: 125,247 unidades
+- Junio: 128,480 unidades
+- Julio: 130,899 unidades
+- Agosto: 134,013 unidades
+- Septiembre: 122,462 unidades
+- Octubre: 128,699 unidades
+- Noviembre: 153,923 unidades
+- Diciembre: 152,584 unidades
+
+3. Interpretación
+El patrón mensual de ventas en 2024 muestra variaciones asociadas a campañas comerciales (fin de año, bono anual), temporadas de alto tráfico y la disponibilidad de inventario en distribuidoras.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado de seminuevos."
+4,tendencia_ventas_nacional,"1. Resumen
+Las ventas nacionales de autos pasaron de 879,981 unidades en 2015 a 634,320 en 2024 (-27.9% en el período). El máximo histórico fue 2016 con 1,043,434 unidades.
+
+2. Datos principales
+- 2015: 879,981 unidades
+- 2016: 1,043,434 unidades (+18.6% vs año anterior)
+- 2017: 953,393 unidades (-8.6% vs año anterior)
+- 2018: 855,809 unidades (-10.2% vs año anterior)
+- 2019: 763,793 unidades (-10.8% vs año anterior)
+- 2020: 532,433 unidades (-30.3% vs año anterior)
+- 2021: 520,112 unidades (-2.3% vs año anterior)
+- 2022: 485,808 unidades (-6.6% vs año anterior)
+- 2023: 596,020 unidades (+22.7% vs año anterior)
+- 2024: 634,320 unidades (+6.4% vs año anterior)
+
+3. Interpretación
+La tendencia de ventas de autos refleja los ciclos de la economía mexicana, la disponibilidad de crédito automotriz y los cambios en la demanda. La caída de 2020 (532,433 unidades) coincide con el impacto de la pandemia de COVID-19 sobre la cadena de producción y distribución automotriz.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas registradas corresponden a unidades nuevas; no incluye el mercado de seminuevos.
+- Los datos de 2025 y 2026 son preliminares y han sido excluidos de este análisis.","1. Resumen
+Las ventas nacionales de autos pasaron de 879,981 unidades en 2015 a 634,320 en 2024 (-27.4% en el período). El máximo histórico fue 2016 con 1,043,434 unidades.
+
+2. Datos principales
+- 2015: 879,981 unidades
+- 2016: 1,043,434 unidades (+18.6% vs año anterior)
+- 2017: 953,393 unidades (-8.6% vs año anterior)
+- 2018: 855,809 unidades (-10.2% vs año anterior)
+- 2019: 763,793 unidades (-10.8% vs año anterior)
+- 2020: 532,433 unidades (-30.3% vs año anterior)
+- 2021: 520,112 unidades (-2.3% vs año anterior)
+- 2022: 485,808 unidades (-6.6% vs año anterior)
+- 2023: 596,020 unidades (+22.7% vs año anterior)
+- 2024: 634,320 unidades (+6.4% vs año anterior)
+
+3. Interpretación
+La tendencia de ventas de autos refleja los ciclos de la economía mexicana, la disponibilidad de crédito automotriz y los cambios en la demanda. La caída de 2020 (532,433 unidades) coincide con el impacto de la pandemia de COVID-19 sobre la cadena de producción y distribución automotriz.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado de seminuevos."
+5,tendencia_accidentes,"1. Resumen
+Yucatán muestra una tendencia al alza en accidentes viales entre 1997 y 2024, pasando de 737 a 8,620 incidentes (+1069.6% en el período). El año pico fue 2022 con 9,015 accidentes.
+
+2. Datos principales
+- 1997: 737 accidentes
+- 2022: 9,015 accidentes (+279.1% vs año anterior)
+- 2024: 8,620 accidentes (-0.2% vs año anterior)
+
+3. Interpretación
+La evolución de 1997 a 2024 refleja cambios en la densidad vehicular, infraestructura vial y condiciones de movilidad en Yucatán. El pico en 2022 puede estar relacionado con el cambio metodológico en la cobertura del ATUS a partir de 2022.
+
+4. Limitaciones
+- La serie histórica 1997-2024 incluye un salto metodológico en 2022: muchas entidades duplicaron o triplicaron sus cifras, probablemente por ampliación de la cobertura de reporte. Las comparaciones entre períodos pre y post 2022 deben interpretarse con cautela.
+- Los datos ATUS corresponden a zonas urbanas y suburbanas; la cobertura rural es limitada.","1. Resumen
+Las accidentes viales en Yucatán pasaron de 737 en 1997 a 9015 en 2024 (+1,277.7% en el período). El máximo histórico fue 2008 con 2,046 incidentes.
+
+2. Datos principales
+- 1997: 737 accidentes
+- 1998: 865 accidentes (+17.4% vs año anterior)
+- 1999: 4,009 accidentes (+363.5% vs año anterior)
+- 2000: 995 accidentes (-75.2% vs año anterior)
+- 2001: 1,197 accidentes (+20.3% vs año anterior)
+- 2002: 1,296 accidentes (+8.3% vs año anterior)
+- 2003: 1,271 accidentes (-1.9% vs año anterior)
+- 2004: 1,681 accidentes (+32.3% vs año anterior)
+- 2005: 1,613 accidentes (-4.0% vs año anterior)
+- 2006: 2,046 accidentes (+26.8% vs año anterior)
+- 2007: 1,963 accidentes (-4.1% vs año anterior)
+- 2008: 2,023 accidentes (+3.1% vs año anterior)
+- 2009: 2,207 accidentes (+9.1% vs año anterior)
+- 2010: 7,483 accidentes (+249.1% vs año anterior)
+- 2011: 2,365 accidentes (-68.4% vs año anterior)
+- 2012: 2,410 accidentes (+1.9% vs año anterior)
+- 2013: 2,571 accidentes (+6.7% vs año anterior)
+- 2014: 2,327 accidentes (-9.5% vs año anterior)
+- 2015:"
+6,accidentes_por_tipo,"1. Resumen
+El tipo de accidente más frecuente en Morelos es «Colisión con vehículo automotor» con 110,199 incidentes (44.5% del total). Le sigue «Colisión con peatón (atropellamiento)» con 76,457 (30.8%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 110,199 (44.5%)
+- 2.° Colisión con peatón (atropellamiento): 76,457 (30.8%)
+- 3.° Certificado cero: 39,382 (15.9%)
+- 4.° Colisión con motocicleta: 7,372 (3.0%)
+- 5.° Colisión con objeto fijo: 5,122 (2.1%)
+- 6.° Colisión con animal: 3,611 (1.5%)
+- 7.° Volcadura: 2,658 (1.1%)
+- 8.° Salida del camino: 2,544 (1.0%)
+- 9.° Colisión con ciclista: 357 (0.1%)
+- 10.° Caída de pasajero: 236 (0.1%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en Morelos; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza.","1. Resumen
+El tipo de accidente más frecuente en Morelos es «Colisión con vehículo automotor» con 110,199 incidentes (44.5% del total). Le sigue «Colisión con peatón (atropellamiento)» con 76,457 (30.8%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 110,199 (44.5%)
+- 2.° Colisión con peatón (atropellamiento): 76,457 (30.8%)
+- 3.° Certificado cero: 39,382 (15.9%)
+- 4.° Colisión con motocicleta: 7,372 (2.9%)
+- 5.° Colisión con objeto fijo: 5,122 (2.1%)
+- 6.° Colisión con animal: 3,611 (1.5%)
+- 7.° Volcadura: 2,658 (1.1%)
+- 8.° Salida del camino: 2,544 (1.0%)
+- 9.° Colisión con ciclista: 357 (0.1%)
+- 10.° Caída de pasajero: 236 (0.1%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en Morelos; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza."
+7,ranking_accidentes,"1. Resumen
+En 2010, Nuevo León encabezó el ranking de accidentes viales con 75,486 incidentes registrados, seguida por Jalisco con 56,644.
+
+2. Datos principales
+- 1.° Nuevo León: 75,486 accidentes
+- 2.° Jalisco: 56,644 accidentes
+- 3.° Chihuahua: 35,167 accidentes
+- 4.° México: 25,161 accidentes
+- 5.° Baja California: 20,605 accidentes
+
+3. Interpretación
+Las 5 entidades del ranking concentran 213,063 accidentes en 2010. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular.","1. Resumen
+En 2010, Nuevo León encabezó el ranking de accidentes viales con 75,486 incidentes registrados, seguida por Jalisco con 56,644.
+
+2. Datos principales
+- 1.° Nuevo León: 75,486 accidentes
+- 2.° Jalisco: 56,644 accidentes
+- 3.° Chihuahua: 35,167 accidentes
+- 4.° México: 25,161 accidentes
+- 5.° Baja California: 20,605 accidentes
+
+3. Interpretación
+Las 5 entidades del ranking concentran 229,967 accidentes en 2010. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular."
+8,accidentes_por_municipio,"1. Resumen
+20 es el municipio de Guanajuato con más accidentes viales registrados (1997-2024), con 25,945 incidentes.
+
+2. Datos principales
+- 1.° 20: 25,945 accidentes
+- 2.° 17: 6,009 accidentes
+- 3.° 27: 5,255 accidentes
+- 4.° 2009: 4,997 accidentes
+- 5.° 2016: 4,777 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Guanajuato sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Guanajuato; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura.","1. Resumen
+20 es el municipio de Guanajuato con más accidentes viales registrados entre 1997 y 2024, con 25,945 incidentes.
+
+2. Datos principales
+- 1.° 20: 25,945 accidentes
+- 2.° 17: 6,009 accidentes
+- 3.° 27: 5,255 accidentes
+- 4.° 2009: 4,997 accidentes
+- 5.° 2016: 4,777 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Guanajuato sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Guanajuato; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura."
+9,relacion_ventas_accidentes_nacional,"1. Resumen
+Para el período 2018-2024, la correlación de Pearson entre ventas nacionales de vehículos (autos y camiones) y accidentes viales es 0.424. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2018: ventas 1,468,274 unidades | accidentes 200,680
+- 2019: ventas 1,360,071 unidades | accidentes 198,671
+- 2020: ventas 977,780 unidades | accidentes 168,059
+- 2021: ventas 1,046,740 unidades | accidentes 197,410
+- 2022: ventas 1,134,777 unidades | accidentes 392,710
+- 2023: ventas 1,416,429 unidades | accidentes 396,628
+- 2024: ventas 1,562,615 unidades | accidentes 390,627
+- Correlación de Pearson (2018-2024): 0.424
+
+3. Interpretación
+La correlación de Pearson es 0.424: asociación positiva moderada entre ventas de vehículos (autos y camiones) y accidentes, sin implicar causalidad. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales no se capturan.
+- Factores confusores (demografía, cobertura ATUS, pandemia 2020) no están controlados.
+- Correlación no implica causalidad: no se puede afirmar que las ventas vehiculares causen los accidentes.","1. Resumen
+Para el período 2018-2024, la correlación de Pearson entre ventas nacionales de vehículos (autos y camiones) y accidentes viales es 0.424. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2018: ventas 1,468,274 unidades | accidentes 200,680
+- 2019: ventas 1,360,071 unidades | accidentes 198,671
+- 2020: ventas 977,780 unidades | accidentes 168,059
+- 2021: ventas 1,046,740 unidades | accidentes 197,410
+- 2022: ventas 1,134,777 unidades | accidentes 392,710
+- 2023: ventas 1,416,429 unidades | accidentes 396,628
+- 2024: ventas 1,562,615 unidades | accidentes 390,627
+- Correlación de Pearson (2018-2024): 0.424
+
+3. Interpretación
+La correlación de Pearson es 0.424: asociación positiva moderada entre ventas de vehículos (autos y camiones) y accidentes, sin implicar causalidad directa. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales pueden estar subrepresentadas.
+- El tamaño del parque vehicular refleja tanto ventas como el régimen de licencias; no todos los vehículos"
+10,comparacion_accidentes,"1. Resumen
+En el período 1997-2024, Durango acumuló más accidentes (142,876) que Sinaloa (113,015). En 2024: Durango registró 10,936 y Sinaloa 5,799 accidentes.
+
+2. Datos principales
+- 1997: Durango 3,077 vs Sinaloa 2,320 (dif. Durango: +757)
+- 2001: Durango 3,123 vs Sinaloa 2,601 (dif. Durango: +522)
+- 2005: Durango 4,521 vs Sinaloa 3,534 (dif. Durango: +987)
+- 2009: Durango 4,433 vs Sinaloa 3,751 (dif. Durango: +682)
+- 2013: Durango 4,107 vs Sinaloa 2,519 (dif. Durango: +1,588)
+- 2017: Durango 4,451 vs Sinaloa 3,253 (dif. Durango: +1,198)
+- 2021: Durango 3,799 vs Sinaloa 3,846 (dif. Durango: -47)
+- 2024: Durango 10,936 vs Sinaloa 5,799 (dif. Durango: +5,137)
+
+3. Interpretación
+Las diferencias entre Durango y Sinaloa reflejan distintos volúmenes de tráfico, densidad urbana y cobertura del ATUS. El estado con mayor número absoluto de accidentes no implica necesariamente un mayor riesgo por habitante o por kilómetro recorrido.
+
+4. Limitaciones
+- La serie incluye un salto metodológico en 2022 que puede haber alterado la cobertura de reporte en algunas entidades, afectando la comparabilidad temporal.
+- Los datos cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- No se incluye normalización por población ni parque vehicular de cada entidad.","1. Resumen
+Durango acumuló 100,000 accidentes entre 1997 y 2024, mientras que Sinaloa registró 80,000. La diferencia es 20,000 (+/- 7% vs +/- 10%).
+
+2. Datos principales
+- 1997: Durango 3,077 | Sinaloa 2,320 | Diferencia +757
+- 1998: Durango 2,469 | Sinaloa 2,325 | Diferencia 144
+- 1999: Durango 6,803 | Sinaloa 8,638 | Diferencia -1,835
+- 2000: Durango 2,770 | Sinaloa 2,678 | Diferencia 92
+- 2001: Durango 3,123 | Sinaloa 2,601 | Diferencia 522
+- 2002: Durango 3,925 | Sinaloa 2,950 | Diferencia 975
+- 2003: Durango 3,989 | Sinaloa 3,234 | Diferencia 755
+- 2004: Durango 4,263 | Sinaloa 3,610 | Diferencia 653
+- 2005: Durango 4,521 | Sinaloa 3,534 | Diferencia 987
+- 2006: Durango 4,795 | Sinaloa 3,752 | Diferencia 1,043
+- 2007: Durango 5,164 | Sinaloa 3,736 | Diferencia 1,428
+- 2008: Durango 4,766 | Sinaloa 3,759 | Diferencia 1,007
+- 2009: Durango 4,433 | Sinaloa 3,7"
+11,resumen_estado,"1. Resumen
+Jalisco acumuló 355,193 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2010 (56,644). En 2024 se registraron 18,793 accidentes. El tipo de accidente más frecuente es «Colisión con vehículo automotor» (55.1% del total).
+
+2. Datos principales
+Tendencia anual:
+- 1997: 4,896 accidentes
+- 1998: 4,566 accidentes
+- 1999: 29,325 accidentes
+- 2000: 5,709 accidentes
+- 2001: 7,051 accidentes
+- 2002: 8,023 accidentes
+...
+- 2021: 8,184 accidentes
+- 2022: 14,960 accidentes
+- 2023: 15,135 accidentes
+- 2024: 18,793 accidentes
+
+Distribución por tipo (top 5):
+- Colisión con vehículo automotor: 195,038 (55.1%)
+- Colisión con peatón (atropellamiento): 76,991 (21.8%)
+- Certificado cero: 42,207 (11.9%)
+- Colisión con motocicleta: 12,421 (3.5%)
+- Colisión con objeto fijo: 11,648 (3.3%)
+
+3. Interpretación
+La evolución de accidentes en Jalisco refleja cambios en la densidad vehicular, cobertura de reporte y condiciones de infraestructura vial. La concentración del 55.1% en «Colisión con vehículo automotor» sugiere un área prioritaria de intervención para política pública de seguridad vial.
+
+4. Limitaciones
+- La serie histórica incluye un salto metodológico en 2022 (probable cambio en cobertura de reporte): las comparaciones largas deben interpretarse con cautela.
+- Los datos ATUS cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- El resumen no incluye tasas por habitante ni por vehículo en circulación.","1. Resumen
+Jalisco acumuló 140,472 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2010 con 56,644 incidentes; el mínimo fue 1997 con 4,896.
+
+2. Datos principales
+- 1997: 4,896 accidentes
+- 1998: 4,566 (-6.7% vs año anterior)
+- 1999: 29,325 (+542.2% vs año anterior)
+- 2000: 5,709 (-80.5% vs año anterior)
+- 2001: 7,051 (+23.5% vs año anterior)
+- 2002: 8,023 (+13.8% vs año anterior)
+- 2003: 9,073 (+13.1% vs año anterior)
+- 2004: 10,786 (+18.9% vs año anterior)
+- 2005: 10,739 (-0.4% vs año anterior)
+- 2006: 10,577 (-1.5% vs año anterior)
+- 2007: 9,995 (-5.5% vs año anterior)
+- 2008: 9,867 (-1.3% vs año anterior)
+- 2009: 9,472 (-4.0% vs año anterior)
+- 2010: 56,644 (+498.0% vs año anterior)
+- 2011: 12,856 (-77.3% vs año anterior)
+- 2012: 12,128 (-5.7% vs año anterior)
+- 2013: 12,333 (+1.7% vs año anterior)
+- 2014: 9,793 (-20.6% vs año anterior)
+- 2015: 9,594 (-2.0% vs año anterior)
+- 2"
+12,ranking_accidentes,"1. Resumen
+En 2015, Nuevo León encabezó el ranking de accidentes viales con 25,419 incidentes registrados, seguida por Colima con 18,474.
+
+2. Datos principales
+- 1.° Nuevo León: 25,419 accidentes
+- 2.° Colima: 18,474 accidentes
+- 3.° Campeche: 12,407 accidentes
+
+3. Interpretación
+Las 3 entidades del ranking concentran 56,300 accidentes en 2015. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular.","1. Resumen
+En 2015, Nuevo León encabezó el ranking de accidentes viales con 25,419 incidentes registrados, seguida por Colima con 18,474.
+
+2. Datos principales
+- 1.° Nuevo León: 25,419 accidentes
+- 2.° Colima: 18,474 accidentes
+- 3.° Campeche: 12,407 accidentes
+
+3. Interpretación
+Las 3 entidades del ranking concentran 56,296 accidentes en 2015. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular."
+13,resumen_estado,"1. Resumen
+Querétaro acumuló 116,948 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2010 (11,642). En 2024 se registraron 8,887 accidentes. El tipo de accidente más frecuente es «Colisión con vehículo automotor» (51.2% del total).
+
+2. Datos principales
+Tendencia anual:
+- 1997: 637 accidentes
+- 1998: 872 accidentes
+- 1999: 4,103 accidentes
+- 2000: 1,695 accidentes
+- 2001: 2,880 accidentes
+- 2002: 3,501 accidentes
+...
+- 2021: 2,998 accidentes
+- 2022: 10,781 accidentes
+- 2023: 9,326 accidentes
+- 2024: 8,887 accidentes
+
+Distribución por tipo (top 5):
+- Colisión con vehículo automotor: 59,694 (51.2%)
+- Certificado cero: 19,720 (16.9%)
+- Colisión con peatón (atropellamiento): 19,200 (16.5%)
+- Colisión con objeto fijo: 8,459 (7.3%)
+- Salida del camino: 3,487 (3.0%)
+
+3. Interpretación
+La evolución de accidentes en Querétaro refleja cambios en la densidad vehicular, cobertura de reporte y condiciones de infraestructura vial. La concentración del 51.2% en «Colisión con vehículo automotor» sugiere un área prioritaria de intervención para política pública de seguridad vial.
+
+4. Limitaciones
+- La serie histórica incluye un salto metodológico en 2022 (probable cambio en cobertura de reporte): las comparaciones largas deben interpretarse con cautela.
+- Los datos ATUS cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- El resumen no incluye tasas por habitante ni por vehículo en circulación.","1. Resumen
+Querétaro acumuló 100,000 accidentes entre 1997 y 2024 (+8633 en el período). El año con mayor incidencia fue 2010 con 11,642 incidentes (+295% vs año anterior); el mínimo fue 1997 con 637.
+
+2. Datos principales
+- 1997: 637 accidentes
+- 1998: 872 accidentes (+36.9% vs año anterior)
+- 1999: 4,103 accidentes (+370.5% vs año anterior)
+- 2000: 1,695 accidentes (-58.7% vs año anterior)
+- 2001: 2,880 accidentes (+69.9% vs año anterior)
+- 2002: 3,501 accidentes (+21.6% vs año anterior)
+- 2003: 4,541 accidentes (+29.7% vs año anterior)
+- 2004: 4,479 accidentes (-1.4% vs año anterior)
+- 2005: 4,161 accidentes (-7.1% vs año anterior)
+- 2006: 3,397 accidentes (-18.4% vs año anterior)
+- 2007: 4,173 accidentes (+22.8% vs año anterior)
+- 2008: 3,653 accidentes (-12.5% vs año anterior)
+- 2009: 2,942 accidentes (-19.5% vs año anterior)
+- 2010: 12,642 accidentes (+295.7% vs año anterior)
+- 2011: 1,964 accidentes (-83.1% vs año anterior)
+- 2012: 2,728 accidentes (+38.9% vs año anterior)
+- 2013: 3,097 accidentes (+13.5% vs año anterior)
+- 2014"
+14,ranking_accidentes,"1. Resumen
+En 2021, Nuevo León encabezó el ranking de accidentes viales con 18,943 incidentes registrados, seguida por Coahuila con 14,119.
+
+2. Datos principales
+- 1.° Nuevo León: 18,943 accidentes
+- 2.° Coahuila: 14,119 accidentes
+- 3.° Aguascalientes: 13,254 accidentes
+
+3. Interpretación
+Las 3 entidades del ranking concentran 46,316 accidentes en 2021. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular.","1. Resumen
+En 2021, Nuevo León encabezó el ranking de accidentes viales con 18,943 incidentes registrados, seguida por Coahuila con 14,119.
+
+2. Datos principales
+- 1.° Nuevo León: 18,943 accidentes
+- 2.° Coahuila: 14,119 accidentes
+- 3.° Aguascalientes: 13,254 accidentes
+
+3. Interpretación
+Las 3 entidades del ranking concentran 46,316 accidentes en 2021. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular."
+15,tendencia_accidentes,"1. Resumen
+Durango muestra una tendencia al alza en accidentes viales entre 1997 y 2024, pasando de 3,077 a 10,936 incidentes (+255.4% en el período). El año pico fue 2023 con 11,658 accidentes.
+
+2. Datos principales
+- 1997: 3,077 accidentes
+- 2023: 11,658 accidentes (+8.3% vs año anterior)
+- 2024: 10,936 accidentes (-6.2% vs año anterior)
+
+3. Interpretación
+La evolución de 1997 a 2024 refleja cambios en la densidad vehicular, infraestructura vial y condiciones de movilidad en Durango. El pico en 2023 puede estar relacionado con el cambio metodológico en la cobertura del ATUS a partir de 2022.
+
+4. Limitaciones
+- La serie histórica 1997-2024 incluye un salto metodológico en 2022: muchas entidades duplicaron o triplicaron sus cifras, probablemente por ampliación de la cobertura de reporte. Las comparaciones entre períodos pre y post 2022 deben interpretarse con cautela.
+- Los datos ATUS corresponden a zonas urbanas y suburbanas; la cobertura rural es limitada.","1. Resumen
+Durango muestra una tendencia al alza en accidentes viales entre 1997 y 2024, pasando de 3,077 a 10,766 (284% más). El año con mayor cantidad fue 2024 (10,766); 2000 registró el mínimo (2,770).
+
+2. Datos principales
+- 1997: 3,077 accidentes
+- 1998: 2,469 (-19.8% vs año anterior)
+- 1999: 6,803 (+175.5% vs año anterior)
+- 2000: 2,770 (-59.3% vs año anterior)
+- 2001: 3,123 (+12.7% vs año anterior)
+- 2002: 3,925 (+25.7% vs año anterior)
+- 2003: 3,989 (+1.6% vs año anterior)
+- 2004: 4,263 (+6.9% vs año anterior)
+- 2005: 4,521 (+6.0% vs año anterior)
+- 2006: 4,795 (+6.1% vs año anterior)
+- 2007: 5,164 (+7.7% vs año anterior)
+- 2008: 4,766 (-7.7% vs año anterior)
+- 2009: 4,433 (-6.9% vs año anterior)
+- 2010: 6,922 (+56.2% vs año anterior)
+- 2011: 4,537 (-34.5% vs año anterior)
+- 2012: 4,611 (+1.6% vs año anterior)
+- 2013: 4,107 (-10.9% vs año anterior)
+- 2014: 4,788 (+16.6% vs año anterior)
+- 2015: 4,861 (+1."
+16,tendencia_parque_nacional,"1. Resumen
+El parque vehicular nacional registrado pasó de 10,285,290 unidades en 1991 a 52,120,484 en 2024, un crecimiento de +406.7% en el período.
+
+2. Datos principales
+- 1991: 10,285,290 vehículos
+- 1994: 10,894,159 vehículos (-4.0% vs año anterior)
+- 1997: 12,358,538 vehículos (+7.2% vs año anterior)
+- 2000: 15,245,319 vehículos (+8.4% vs año anterior)
+- 2003: 19,296,603 vehículos (+5.2% vs año anterior)
+- 2006: 24,090,577 vehículos (+12.2% vs año anterior)
+- 2009: 29,565,481 vehículos (+5.2% vs año anterior)
+- 2012: 33,154,458 vehículos (+4.2% vs año anterior)
+- 2015: 37,201,026 vehículos (+4.5% vs año anterior)
+- 2018: 43,555,465 vehículos (+3.4% vs año anterior)
+- 2024: 52,120,484 vehículos (+3.8% vs año anterior)
+
+3. Interpretación
+El crecimiento sostenido del parque vehicular refleja la motorización progresiva de la población mexicana, impulsada por el acceso al crédito automotriz y el incremento del ingreso familiar. Este aumento es un factor estructural relevante al analizar la accidentalidad vial.
+
+4. Limitaciones
+- El parque vehicular registrado puede diferir del parque activo real; vehículos sin verificación o en rezago administrativo pueden estar incluidos.
+- Los datos son nacionales; no permiten desglose por entidad federativa.
+- Los datos de 2025 y 2026 son preliminares y han sido excluidos de este análisis.","1. Resumen
+El parque vehicular registrado en México pasó de 1,028,529,000 unidades en 1991 a 5,212,048,400 en 2024 (+4,183,519,400 unidades). El máximo histórico fue 2024 con 5,212,048,400 unidades.
+
+2. Datos principales
+- 1991: 1,028,529,000 unidades
+- 1992: 1,092,932,500 unidades (+6.26% vs año anterior)
+- 1993: 1,134,686,700 unidades (+3.82% vs año anterior)
+- 1994: 1,089,415,900 unidades (-3.99% vs año anterior)
+- 1995: 1,114,090,800 unidades (+2.26% vs año anterior)
+- 1996: 1,152,826,500 unidades (+3.48% vs año anterior)
+- 1997: 1,235,853,800 unidades (+7.20% vs año anterior)
+- 1998: 1,326,631,500 unidades (+7.35% vs año anterior)
+- 1999: 1,406,178,800 unidades (+6.00% vs año anterior)
+- 2000: 1,524,531,900 unidades (+8.42% vs año anterior)
+- 2001: 1,694,610,800 unidades (+11.16% vs año anterior)
+- 2002: 1,833,688,600 unidades (+8.21% vs año anterior)
+- 2003: 1,929,660,300 unidades (+5.23% vs año anterior"
+17,tendencia_ventas_nacional,"1. Resumen
+Las ventas nacionales de camiones pasaron de 512,186 unidades en 2015 a 928,295 en 2024 (+81.2% en el período). El máximo histórico fue 2024 con 928,295 unidades.
+
+2. Datos principales
+- 2015: 512,186 unidades
+- 2016: 606,731 unidades (+18.5% vs año anterior)
+- 2017: 624,091 unidades (+2.9% vs año anterior)
+- 2018: 612,465 unidades (-1.9% vs año anterior)
+- 2019: 596,278 unidades (-2.6% vs año anterior)
+- 2020: 445,347 unidades (-25.3% vs año anterior)
+- 2021: 526,628 unidades (+18.2% vs año anterior)
+- 2022: 648,969 unidades (+23.2% vs año anterior)
+- 2023: 820,409 unidades (+26.4% vs año anterior)
+- 2024: 928,295 unidades (+13.2% vs año anterior)
+
+3. Interpretación
+La tendencia de ventas de camiones refleja los ciclos de la economía mexicana, la disponibilidad de crédito automotriz y los cambios en la demanda. La caída de 2020 (445,347 unidades) coincide con el impacto de la pandemia de COVID-19 sobre la cadena de producción y distribución automotriz.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas registradas corresponden a unidades nuevas; no incluye el mercado de seminuevos.
+- Los datos de 2025 y 2026 son preliminares y han sido excluidos de este análisis.","1. Resumen
+Las ventas nacionales de camiones pasaron de 512,186 unidades en 2015 a 928,295 en 2024 (+81.0% en el período). El máximo histórico fue 2024 con 928,295 unidades.
+
+2. Datos principales
+- 2015: 512,186 unidades
+- 2016: 606,731 unidades (+18.5% vs año anterior)
+- 2017: 624,091 unidades (+2.9% vs año anterior)
+- 2018: 612,465 unidades (-1.9% vs año anterior)
+- 2019: 596,278 unidades (-2.6% vs año anterior)
+- 2020: 445,347 unidades (-25.3% vs año anterior)
+- 2021: 526,628 unidades (+18.2% vs año anterior)
+- 2022: 648,969 unidades (+23.2% vs año anterior)
+- 2023: 820,409 unidades (+26.4% vs año anterior)
+- 2024: 928,295 unidades (+13.2% vs año anterior)
+
+3. Interpretación
+La tendencia de ventas de camiones refleja los ciclos de la economía mexicana, la disponibilidad de crédito automotriz y los cambios en la demanda. La caída de 2020 (445,347 unidades) coincide con el impacto de la pandemia de COVID-19 sobre la cadena de producción y distribución automotriz.
+
+4. Limitaciones
+- Los datos VMRC cubren vehículos en circulación; no incluye el mercado nuevo.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado seminuevo.
+- Desde 2012, el VMRC separa 'camiones' del 'resto de camiones'; esta división puede desglosar subcategorías menos claras."
+18,comparacion_accidentes,"1. Resumen
+En el período 1997-2024, Baja California Sur acumuló más accidentes (202,557) que Quintana Roo (58,829). En 2024: Baja California Sur registró 6,248 y Quintana Roo 7,081 accidentes.
+
+2. Datos principales
+- 1997: Baja California Sur 6,567 vs Quintana Roo 343 (dif. Baja California Sur: +6,224)
+- 2001: Baja California Sur 6,472 vs Quintana Roo 823 (dif. Baja California Sur: +5,649)
+- 2005: Baja California Sur 8,816 vs Quintana Roo 854 (dif. Baja California Sur: +7,962)
+- 2009: Baja California Sur 9,844 vs Quintana Roo 1,146 (dif. Baja California Sur: +8,698)
+- 2013: Baja California Sur 9,305 vs Quintana Roo 1,367 (dif. Baja California Sur: +7,938)
+- 2017: Baja California Sur 6,952 vs Quintana Roo 1,382 (dif. Baja California Sur: +5,570)
+- 2021: Baja California Sur 7,245 vs Quintana Roo 1,150 (dif. Baja California Sur: +6,095)
+- 2024: Baja California Sur 6,248 vs Quintana Roo 7,081 (dif. Baja California Sur: -833)
+
+3. Interpretación
+Las diferencias entre Baja California Sur y Quintana Roo reflejan distintos volúmenes de tráfico, densidad urbana y cobertura del ATUS. El estado con mayor número absoluto de accidentes no implica necesariamente un mayor riesgo por habitante o por kilómetro recorrido.
+
+4. Limitaciones
+- La serie incluye un salto metodológico en 2022 que puede haber alterado la cobertura de reporte en algunas entidades, afectando la comparabilidad temporal.
+- Los datos cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- No se incluye normalización por población ni parque vehicular de cada entidad.","1. Resumen
+Baja California Sur acumuló 110,442 accidentes entre 1997 y 2024, mientras que Quintana Roo registró 104,228. La diferencia es 6,214 (1997-2024).
+
+2. Datos principales
+- 1997: Baja California Sur 6567 | Quintana Roo 343 | Dif. 6224
+- 1998: Baja California Sur 4955 | Quintana Roo 511 | Dif. 4444
+- 1999: Baja California Sur 3037 | Quintana Roo 4866 | Dif. -1829
+- 2000: Baja California Sur 6005 | Quintana Roo 770 | Dif. 5235
+- 2001: Baja California Sur 6472 | Quintana Roo 823 | Dif. 5649
+- 2002: Baja California Sur 6503 | Quintana Roo 836 | Dif. 5667
+- 2003: Baja California Sur 6649 | Quintana Roo 900 | Dif. 5749
+- 2004: Baja California Sur 7089 | Quintana Roo 944 | Dif. 6145
+- 2005: Baja California Sur 8816 | Quintana Roo 854 | Dif. 7962
+- 2006: Baja California Sur 9776 | Quintana Roo 862 | Dif. 8914
+- 2007: Baja California Sur 9718 | Quintana Roo 1090 | Dif. 8628
+- 2008: Baja California Sur 9819 | Quintana Roo 1040 | Dif. 8779
+- 2009: Baja California Sur 9844 | Quintana Roo 1146"
+19,accidentes_por_tipo,"1. Resumen
+El tipo de accidente más frecuente a nivel nacional en 2012 es «Colisión con vehículo automotor» con 101,874 incidentes (45.4% del total). Le sigue «Colisión con peatón (atropellamiento)» con 72,841 (32.5%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 101,874 (45.4%)
+- 2.° Colisión con peatón (atropellamiento): 72,841 (32.5%)
+- 3.° Certificado cero: 44,679 (19.9%)
+- 4.° Colisión con animal: 4,231 (1.9%)
+- 5.° Colisión con objeto fijo: 574 (0.3%)
+- 6.° Volcadura: 82 (0.0%)
+- 7.° Caída de pasajero: 27 (0.0%)
+- 8.° Incendio: 6 (0.0%)
+- 9.° Salida del camino: 4 (0.0%)
+- 10.° Colisión con ferrocarril: 1 (0.0%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas a nivel nacional en 2012; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza.","1. Resumen
+El tipo de accidente más frecuente a nivel nacional en 2012 es «Colisión con vehículo automotor» con 101,874 incidentes (45.4% del total). Le sigue «Colisión con peatón (atropellamiento)» con 72,841 (32.5%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 101,874 (45.4%)
+- 2.° Colisión con peatón (atropellamiento): 72,841 (32.5%)
+- 3.° Certificado cero: 44,679 (19.9%)
+- 4.° Colisión con animal: 4,231 (1.9%)
+- 5.° Colisión con objeto fijo: 574 (0.3%)
+- 6.° Volcadura: 82 (0.0%)
+- 7.° Caída de pasajero: 27 (0.0%)
+- 8.° Incendio: 6 (0.0%)
+- 9.° Salida del camino: 4 (0.0%)
+- 10.° Colisión con ferrocarril: 1 (0.0%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en México; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza."
+20,comparacion_accidentes,"1. Resumen
+En el período 1997-2024, Guerrero acumuló más accidentes (130,009) que Quintana Roo (58,829). En 2024: Guerrero registró 7,734 y Quintana Roo 7,081 accidentes.
+
+2. Datos principales
+- 1997: Guerrero 2,330 vs Quintana Roo 343 (dif. Guerrero: +1,987)
+- 2001: Guerrero 4,051 vs Quintana Roo 823 (dif. Guerrero: +3,228)
+- 2005: Guerrero 6,293 vs Quintana Roo 854 (dif. Guerrero: +5,439)
+- 2009: Guerrero 4,252 vs Quintana Roo 1,146 (dif. Guerrero: +3,106)
+- 2013: Guerrero 3,873 vs Quintana Roo 1,367 (dif. Guerrero: +2,506)
+- 2017: Guerrero 3,777 vs Quintana Roo 1,382 (dif. Guerrero: +2,395)
+- 2021: Guerrero 3,512 vs Quintana Roo 1,150 (dif. Guerrero: +2,362)
+- 2024: Guerrero 7,734 vs Quintana Roo 7,081 (dif. Guerrero: +653)
+
+3. Interpretación
+Las diferencias entre Guerrero y Quintana Roo reflejan distintos volúmenes de tráfico, densidad urbana y cobertura del ATUS. El estado con mayor número absoluto de accidentes no implica necesariamente un mayor riesgo por habitante o por kilómetro recorrido.
+
+4. Limitaciones
+- La serie incluye un salto metodológico en 2022 que puede haber alterado la cobertura de reporte en algunas entidades, afectando la comparabilidad temporal.
+- Los datos cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- No se incluye normalización por población ni parque vehicular de cada entidad.","1. Resumen
+Guerrero acumuló 110,422 accidentes entre 1997 y 2024, mientras que Quintana Roo registró 110,422. La diferencia es nula.
+
+2. Datos principales
+- 1997: Guerrero 2,330 | Quintana Roo 343 | Diferencia (-1,987)
+- 1998: Guerrero 2,211 | Quintana Roo 511 | Diferencia (-1,700)
+- 1999: Guerrero 2,414 | Quintana Roo 4,866 | Diferencia (-2,452)
+- 2000: Guerrero 3,614 | Quintana Roo 770 | Diferencia (+2,844)
+- 2001: Guerrero 4,051 | Quintana Roo 823 | Diferencia (+3,228)
+- 2002: Guerrero 3,754 | Quintana Roo 836 | Diferencia (+2,918)
+- 2003: Guerrero 3,589 | Quintana Roo 900 | Diferencia (+2,689)
+- 2004: Guerrero 4,025 | Quintana Roo 944 | Diferencia (+3,081)
+- 2005: Guerrero 6,293 | Quintana Roo 854 | Diferencia (+5,439)
+- 2006: Guerrero 7,701 | Quintana Roo 862 | Diferencia (+6,839)
+- 2007: Guerrero 7,334 | Quintana Roo 1,090 | Diferencia (+6,244)
+- 2008: Guerrero 5,436 | Quintana Roo 1,040 | Diferencia (+4,396)
+- 2009: Guerrero 4,252 | Quintana Roo 1,146 | Diferencia (+3,106)
+- 2010: Guerrero 4,237"
+21,resumen_estado,"1. Resumen
+Hidalgo acumuló 102,728 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2024 (6,314). En 2024 se registraron 6,314 accidentes. El tipo de accidente más frecuente es «Colisión con vehículo automotor» (49.2% del total).
+
+2. Datos principales
+Tendencia anual:
+- 1997: 1,036 accidentes
+- 1998: 1,577 accidentes
+- 1999: 2,260 accidentes
+- 2000: 2,301 accidentes
+- 2001: 3,313 accidentes
+- 2002: 3,170 accidentes
+...
+- 2021: 3,822 accidentes
+- 2022: 4,095 accidentes
+- 2023: 5,378 accidentes
+- 2024: 6,314 accidentes
+
+Distribución por tipo (top 5):
+- Colisión con vehículo automotor: 50,527 (49.2%)
+- Colisión con peatón (atropellamiento): 28,172 (27.4%)
+- Certificado cero: 16,099 (15.7%)
+- Colisión con objeto fijo: 2,680 (2.6%)
+- Colisión con motocicleta: 1,811 (1.8%)
+
+3. Interpretación
+La evolución de accidentes en Hidalgo refleja cambios en la densidad vehicular, cobertura de reporte y condiciones de infraestructura vial. La concentración del 49.2% en «Colisión con vehículo automotor» sugiere un área prioritaria de intervención para política pública de seguridad vial.
+
+4. Limitaciones
+- La serie histórica incluye un salto metodológico en 2022 (probable cambio en cobertura de reporte): las comparaciones largas deben interpretarse con cautela.
+- Los datos ATUS cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- El resumen no incluye tasas por habitante ni por vehículo en circulación.","1. Resumen
+Hidalgo acumuló 10,360 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2000 (2,301); 2001 registró el mínimo histórico (3,313).
+
+2. Datos principales
+- 1997: 1,036 accidentes
+- 1998: 1,577 (+52.2% vs año anterior)
+- 1999: 2,260 (+43.3% vs año anterior)
+- 2000: 2,301 (+1.8% vs año anterior)
+- 2001: 3,313 (+43.9% vs año anterior)
+- 2002: 3,170 (-4.3% vs año anterior)
+- 2003: 3,104 (-2.1% vs año anterior)
+- 2004: 3,748 (+20.8% vs año anterior)
+- 2005: 4,498 (+20.0% vs año anterior)
+- 2006: 3,973 (-11.7% vs año anterior)
+- 2007: 4,212 (+6.0% vs año anterior)
+- 2008: 4,749 (+12.8% vs año anterior)
+- 2009: 4,532 (-4.6% vs año anterior)
+- 2010: 4,388 (-3.2% vs año anterior)
+- 2011: 3,539 (-19.4% vs año anterior)
+- 2012: 3,368 (-4.8% vs año anterior)
+- 2013: 3,678 (+9.2% vs año anterior)
+- 2014: 3,689 (+0.3% vs año anterior)
+- 2015: 3,142 (-14.8% vs año anterior)
+- 2016: 3,919 (+24."
+22,accidentes_por_municipio,"1. Resumen
+2020 es el municipio de Sinaloa con más accidentes viales registrados en 2020, con 3,431 incidentes.
+
+2. Datos principales
+- 1.° 2020: 3,431 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Sinaloa sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Sinaloa; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura.","1. Resumen
+2020 es el municipio de Sinaloa con más accidentes viales registrados en 2020, con 3,431 incidentes.
+
+2. Datos principales
+- 1.° 2020: 3,431 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Sinaloa sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Sinaloa; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura."
+23,accidentes_por_municipio,"1. Resumen
+2020 es el municipio de Querétaro con más accidentes viales registrados en 2020, con 2,694 incidentes.
+
+2. Datos principales
+- 1.° 2020: 2,694 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Querétaro sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Querétaro; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura.","1. Resumen
+2020 es el municipio de Querétaro con más accidentes viales registrados en 2020, con 2,694 incidentes.
+
+2. Datos principales
+- 1.° 2020: 2,694 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Querétaro sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Querétaro; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura."
+24,resumen_estado,"1. Resumen
+Quintana Roo acumuló 58,829 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2010 (8,841). En 2024 se registraron 7,081 accidentes. El tipo de accidente más frecuente es «Colisión con vehículo automotor» (49.1% del total).
+
+2. Datos principales
+Tendencia anual:
+- 1997: 343 accidentes
+- 1998: 511 accidentes
+- 1999: 4,866 accidentes
+- 2000: 770 accidentes
+- 2001: 823 accidentes
+- 2002: 836 accidentes
+...
+- 2021: 1,150 accidentes
+- 2022: 7,728 accidentes
+- 2023: 6,619 accidentes
+- 2024: 7,081 accidentes
+
+Distribución por tipo (top 5):
+- Colisión con vehículo automotor: 28,821 (49.1%)
+- Colisión con motocicleta: 10,178 (17.4%)
+- Colisión con peatón (atropellamiento): 6,587 (11.2%)
+- Certificado cero: 6,544 (11.2%)
+- Colisión con objeto fijo: 3,211 (5.5%)
+
+3. Interpretación
+La evolución de accidentes en Quintana Roo refleja cambios en la densidad vehicular, cobertura de reporte y condiciones de infraestructura vial. La concentración del 49.1% en «Colisión con vehículo automotor» sugiere un área prioritaria de intervención para política pública de seguridad vial.
+
+4. Limitaciones
+- La serie histórica incluye un salto metodológico en 2022 (probable cambio en cobertura de reporte): las comparaciones largas deben interpretarse con cautela.
+- Los datos ATUS cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- El resumen no incluye tasas por habitante ni por vehículo en circulación.","1. Resumen
+Quintana Roo acumuló 110,472 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2010 con 8,841 incidentes; el mínimo fue 1997 con 343.
+
+2. Datos principales
+- 1997: 343 accidentes
+- 1998: 511 accidentes (+48.9% vs año anterior)
+- 1999: 4,866 accidentes (+852.2% vs año anterior)
+- 2000: 770 accidentes (-84.2% vs año anterior)
+- 2001: 823 accidentes (+6.9% vs año anterior)
+- 2002: 836 accidentes (+1.6% vs año anterior)
+- 2003: 900 accidentes (+7.7% vs año anterior)
+- 2004: 944 accidentes (+4.9% vs año anterior)
+- 2005: 854 accidentes (-9.5% vs año anterior)
+- 2006: 862 accidentes (+0.9% vs año anterior)
+- 2007: 1,090 accidentes (+26.5% vs año anterior)
+- 2008: 1,040 accidentes (-4.6% vs año anterior)
+- 2009: 1,146 accidentes (+10.2% vs año anterior)
+- 2010: 8,841 accidentes (+671.5% vs año anterior)
+- 2011: 1,049 accidentes (-88.1% vs año anterior)
+- 2012: 978 accidentes (-6.8% vs año anterior)
+- 2013: 1,367 accidentes (+39.8% vs año anterior)
+- 2014: 1,375 accidentes (+0.6% vs año anterior)
+- 2015: 1,295 accidentes (-5.8% vs año"
+25,comparacion_accidentes,"1. Resumen
+En el período 1997-2024, Colima acumuló más accidentes (306,567) que Querétaro (116,948). En 2024: Colima registró 6,602 y Querétaro 8,887 accidentes.
+
+2. Datos principales
+- 1997: Colima 6,957 vs Querétaro 637 (dif. Colima: +6,320)
+- 2001: Colima 8,721 vs Querétaro 2,880 (dif. Colima: +5,841)
+- 2005: Colima 11,841 vs Querétaro 4,161 (dif. Colima: +7,680)
+- 2009: Colima 12,986 vs Querétaro 2,942 (dif. Colima: +10,044)
+- 2013: Colima 14,224 vs Querétaro 3,097 (dif. Colima: +11,127)
+- 2017: Colima 13,319 vs Querétaro 4,249 (dif. Colima: +9,070)
+- 2021: Colima 10,198 vs Querétaro 2,998 (dif. Colima: +7,200)
+- 2024: Colima 6,602 vs Querétaro 8,887 (dif. Colima: -2,285)
+
+3. Interpretación
+Las diferencias entre Colima y Querétaro reflejan distintos volúmenes de tráfico, densidad urbana y cobertura del ATUS. El estado con mayor número absoluto de accidentes no implica necesariamente un mayor riesgo por habitante o por kilómetro recorrido.
+
+4. Limitaciones
+- La serie incluye un salto metodológico en 2022 que puede haber alterado la cobertura de reporte en algunas entidades, afectando la comparabilidad temporal.
+- Los datos cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- No se incluye normalización por población ni parque vehicular de cada entidad.","1. Resumen
+Colima encabezó el ranking de accidentes viales entre 1997 y 2024, con 1,113,333 incidentes registradas; seguida por Querétaro con 1,019,800.
+
+2. Datos principales
+- 1997: Colima 6,957 | Querétaro 637
+- 1998: Colima 6,984 | Querétaro 872
+- 1999: Colima 3,403 | Querétaro 4,103 (-700)
+- 2000: Colima 6,995 | Querétaro 1,695
+- 2001: Colima 8,721 | Querétaro 2,880
+- 2002: Colima 8,697 | Querétaro 3,501
+- 2003: Colima 10,347 | Querétaro 4,541 (5,806)
+- 2004: Colima 11,708 | Querétaro 4,479
+- 2005: Colima 11,841 | Querétaro 4,161
+- 2006: Colima 13,135 | Querétaro 3,397
+- 2007: Colima 13,342 | Querétaro 4,173
+- 2008: Colima 14,753 | Querétaro 3,653
+- 2009: Colima 12,986 | Querétaro 2,942
+- 2010: Colima 6,983 | Querétaro 11,642 (-4,659)
+- 2011: Colima 14,517 | Querétaro 1,964
+- 2012: Colima 14,121"
+26,relacion_ventas_accidentes_nacional,"1. Resumen
+Para el período 2018-2024, la correlación de Pearson entre ventas nacionales de autos y accidentes viales es -0.320. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2018: ventas 855,809 unidades | accidentes 200,680
+- 2019: ventas 763,793 unidades | accidentes 198,671
+- 2020: ventas 532,433 unidades | accidentes 168,059
+- 2021: ventas 520,112 unidades | accidentes 197,410
+- 2022: ventas 485,808 unidades | accidentes 392,710
+- 2023: ventas 596,020 unidades | accidentes 396,628
+- 2024: ventas 634,320 unidades | accidentes 390,627
+- Correlación de Pearson (2018-2024): -0.320
+
+3. Interpretación
+La correlación de Pearson es -0.320: asociación negativa moderada entre ventas de autos y accidentes, sin implicar causalidad. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales no se capturan.
+- Factores confusores (demografía, cobertura ATUS, pandemia 2020) no están controlados.
+- Correlación no implica causalidad: no se puede afirmar que las ventas vehiculares causen los accidentes.","1. Resumen
+Para el período 2018-2024, la correlación de Pearson entre ventas nacionales de autos y accidentes viales es -0.320. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2018: ventas 855,809 unidades | accidentes 200,680
+- 2019: ventas 763,793 unidades | accidentes 198,671
+- 2020: ventas 532,433 unidades | accidentes 168,059
+- 2021: ventas 520,112 unidades | accidentes 197,410
+- 2022: ventas 485,808 unidades | accidentes 392,710
+- 2023: ventas 596,020 unidades | accidentes 396,628
+- 2024: ventas 634,320 unidades | accidentes 390,627
+- Correlación de Pearson (2018-2024): -0.320
+
+3. Interpretación
+La correlación de Pearson es -0.320: asociación negativa moderada entre ventas de autos y accidentes en el período disponible. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales pueden estar subrepresentadas.
+- Muchos otros factores influyen en los accidentes: tamaño del parque vehicular, infraestructura vial, políticas de seguridad vial."
+27,accidentes_por_tipo,"1. Resumen
+El tipo de accidente más frecuente a nivel nacional en 2014 es «Colisión con vehículo automotor» con 98,042 incidentes (46.6% del total). Le sigue «Colisión con peatón (atropellamiento)» con 66,201 (31.5%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 98,042 (46.6%)
+- 2.° Colisión con peatón (atropellamiento): 66,201 (31.5%)
+- 3.° Certificado cero: 41,687 (19.8%)
+- 4.° Colisión con animal: 3,654 (1.7%)
+- 5.° Colisión con objeto fijo: 478 (0.2%)
+- 6.° Volcadura: 85 (0.0%)
+- 7.° Caída de pasajero: 13 (0.0%)
+- 8.° Salida del camino: 5 (0.0%)
+- 9.° Incendio: 2 (0.0%)
+- 10.° Colisión con ferrocarril: 1 (0.0%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas a nivel nacional en 2014; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza.","1. Resumen
+El tipo de accidente más frecuente entre 2014 y 2014 es «Colisión con vehículo automotor» con 98,042 incidentes (46.6% del total). Le sigue «Colisión con peatón (atropellamiento)» con 66,201 (31.5%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 98,042 (46.6%)
+- 2.° Colisión con peatón (atropellamiento): 66,201 (31.5%)
+- 3.° Certificado cero: 41,687 (19.8%)
+- 4.° Colisión con animal: 3,654 (1.7%)
+- 5.° Colisión con objeto fijo: 478 (0.2%)
+- 6.° Volcadura: 85 (0.0%)
+- 7.° Caída de pasajero: 13 (0.0%)
+- 8.° Salida del camino: 5 (0.0%)
+- 9.° Incendio: 2 (0.0%)
+- 10.° Colisión con ferrocarril: 1 (0.0%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en México; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza."
+28,tendencia_accidentes,"1. Resumen
+Nayarit muestra una tendencia a la baja en accidentes viales entre 1997 y 2024, pasando de 5,457 a 2,715 incidentes (-50.2% en el período). El año pico fue 2017 con 10,894 accidentes.
+
+2. Datos principales
+- 1997: 5,457 accidentes
+- 2017: 10,894 accidentes (+14.3% vs año anterior)
+- 2024: 2,715 accidentes (-5.7% vs año anterior)
+
+3. Interpretación
+La evolución de 1997 a 2024 refleja cambios en la densidad vehicular, infraestructura vial y condiciones de movilidad en Nayarit.
+
+4. Limitaciones
+- La serie histórica 1997-2024 incluye un salto metodológico en 2022: muchas entidades duplicaron o triplicaron sus cifras, probablemente por ampliación de la cobertura de reporte. Las comparaciones entre períodos pre y post 2022 deben interpretarse con cautela.
+- Los datos ATUS corresponden a zonas urbanas y suburbanas; la cobertura rural es limitada.","1. Resumen
+Nayarit muestra una tendencia al alza en accidentes viales entre 1997 y 2024, pasando de 5,457 a 10,894 (182% más). El año con mayor incidencia fue 2008 (9,822 accidentes); el mínimo fue 1998 (4,832).
+
+2. Datos principales
+- 1997: 5,457 accidentes
+- 1998: 4,832 accidentes (-11.5% vs año anterior)
+- 1999: 1,050 accidentes (-78.3% vs año anterior)
+- 2000: 5,853 accidentes (+457.4% vs año anterior)
+- 2001: 5,871 accidentes (+0.3% vs año anterior)
+- 2002: 7,368 accidentes (+25.5% vs año anterior)
+- 2003: 6,731 accidentes (-8.7% vs año anterior)
+- 2004: 7,174 accidentes (+6.6% vs año anterior)
+- 2005: 6,833 accidentes (-4.8% vs año anterior)
+- 2006: 8,937 accidentes (+30.8% vs año anterior)
+- 2007: 9,822 accidentes (+9.9% vs año anterior)
+- 2008: 9,309 accidentes (-5.2% vs año anterior)
+- 2009: 8,455 accidentes (-9.2% vs año anterior)
+- 2010: 2,516 accidentes (-70.2% vs año anterior)
+- 2011: 6,550 accidentes (+160.3% vs año anterior)
+- 2012: 6,117 accidentes (-6.6% vs año anterior)
+- 2013: 5,252 accidentes (-14.1% vs año anterior)
+- 20"
+29,tendencia_accidentes,"1. Resumen
+Guanajuato muestra una tendencia al alza en accidentes viales entre 1997 y 2024, pasando de 1,601 a 18,623 incidentes (+1063.2% en el período). El año pico fue 2010 con 19,021 accidentes.
+
+2. Datos principales
+- 1997: 1,601 accidentes
+- 2010: 19,021 accidentes (+280.6% vs año anterior)
+- 2024: 18,623 accidentes (+5.0% vs año anterior)
+
+3. Interpretación
+La evolución de 1997 a 2024 refleja cambios en la densidad vehicular, infraestructura vial y condiciones de movilidad en Guanajuato.
+
+4. Limitaciones
+- La serie histórica 1997-2024 incluye un salto metodológico en 2022: muchas entidades duplicaron o triplicaron sus cifras, probablemente por ampliación de la cobertura de reporte. Las comparaciones entre períodos pre y post 2022 deben interpretarse con cautela.
+- Los datos ATUS corresponden a zonas urbanas y suburbanas; la cobertura rural es limitada.","1. Resumen
+Guanajuato muestra una tendencia al alza en accidentes viales entre 1997 y 2024, pasando de 1,601 a 20,227 (un aumento de 1,226%). El año con mayor cantidad fue 2009 (4,997); el mínimo fue 1997 (1,601).
+
+2. Datos principales
+- 1997: 1,601 accidentes
+- 1998: 1,492 (-6.8% vs año anterior)
+- 1999: 11,346 (+660.5% vs año anterior)
+- 2000: 1,841 (-83.8% vs año anterior)
+- 2001: 2,007 (+9.0% vs año anterior)
+- 2002: 2,279 (+13.5% vs año anterior)
+- 2003: 1,962 (-14.0% vs año anterior)
+- 2004: 2,374 (+21.0% vs año anterior)
+- 2005: 2,721 (+14.6% vs año anterior)
+- 2006: 3,631 (+33.4% vs año anterior)
+- 2007: 4,165 (+14.7% vs año anterior)
+- 2008: 4,361 (+4.7% vs año anterior)
+- 2009: 4,997 (+14.6% vs año anterior)
+- 2010: 19,021 (+280.7% vs año anterior)
+- 2011: 4,185 (-78.0% vs año anterior)
+- 2012: 4,017 (-4.0% vs año anterior)
+- 2013: 3,799 (-5.4% vs año anterior)
+- 2014: 3,911 (+2.9% vs año anterior)
+- 2015:"
+30,accidentes_por_tipo,"1. Resumen
+El tipo de accidente más frecuente en Baja California Sur es «Colisión con vehículo automotor» con 89,116 incidentes (44.0% del total). Le sigue «Colisión con peatón (atropellamiento)» con 75,953 (37.5%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 89,116 (44.0%)
+- 2.° Colisión con peatón (atropellamiento): 75,953 (37.5%)
+- 3.° Certificado cero: 25,912 (12.8%)
+- 4.° Colisión con animal: 4,425 (2.2%)
+- 5.° Colisión con objeto fijo: 3,191 (1.6%)
+- 6.° Colisión con motocicleta: 2,086 (1.0%)
+- 7.° Volcadura: 793 (0.4%)
+- 8.° Salida del camino: 474 (0.2%)
+- 9.° Caída de pasajero: 275 (0.1%)
+- 10.° Colisión con ciclista: 217 (0.1%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en Baja California Sur; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza.","1. Resumen
+El tipo de accidente más frecuente en Baja California Sur es «Colisión con vehículo automotor» con 89,116 incidentes (44.0% del total). Le sigue «Colisión con peatón (atropellamiento)» con 75,953 (37.5%).
+
+2. Datos principales
+- 1.° Colisión con vehículo automotor: 89,116 (44.0%)
+- 2.° Colisión con peatón (atropellamiento): 75,953 (37.5%)
+- 3.° Certificado cero: 25,912 (12.8%)
+- 4.° Colisión con animal: 4,425 (2.2%)
+- 5.° Colisión con objeto fijo: 3,191 (1.6%)
+- 6.° Colisión con motocicleta: 2,086 (1.0%)
+- 7.° Volcadura: 793 (0.4%)
+- 8.° Salida del camino: 474 (0.2%)
+- 9.° Caída de pasajero: 275 (0.1%)
+- 10.° Colisión con ciclista: 217 (0.1%)
+
+3. Interpretación
+La distribución por tipo de accidente indica los siniestros que más afectan la vía pública. Las categorías dominantes suelen relacionarse con velocidad excesiva, distracciones al volante y condiciones de la infraestructura vial. Esta información es útil para priorizar campañas de prevención y políticas de seguridad vial.
+
+4. Limitaciones
+- Los datos cubren zonas urbanas y suburbanas en Baja California Sur; no incluye la totalidad de siniestros en carreteras rurales o federales.
+- La clasificación TIPACCID del INEGI puede agrupar subcategorías de distinta naturaleza."
+31,tendencia_ventas_nacional,"1. Resumen
+Las ventas nacionales de camiones pasaron de 512,186 unidades en 2015 a 928,295 en 2024 (+81.2% en el período). El máximo histórico fue 2024 con 928,295 unidades.
+
+2. Datos principales
+- 2015: 512,186 unidades
+- 2016: 606,731 unidades (+18.5% vs año anterior)
+- 2017: 624,091 unidades (+2.9% vs año anterior)
+- 2018: 612,465 unidades (-1.9% vs año anterior)
+- 2019: 596,278 unidades (-2.6% vs año anterior)
+- 2020: 445,347 unidades (-25.3% vs año anterior)
+- 2021: 526,628 unidades (+18.2% vs año anterior)
+- 2022: 648,969 unidades (+23.2% vs año anterior)
+- 2023: 820,409 unidades (+26.4% vs año anterior)
+- 2024: 928,295 unidades (+13.2% vs año anterior)
+
+3. Interpretación
+La tendencia de ventas de camiones refleja los ciclos de la economía mexicana, la disponibilidad de crédito automotriz y los cambios en la demanda. La caída de 2020 (445,347 unidades) coincide con el impacto de la pandemia de COVID-19 sobre la cadena de producción y distribución automotriz.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas registradas corresponden a unidades nuevas; no incluye el mercado de seminuevos.
+- Los datos de 2025 y 2026 son preliminares y han sido excluidos de este análisis.","1. Resumen
+Las ventas nacionales de camiones pasaron de 512,186 unidades en 2015 a 928,295 en 2024 (+81.0% en el período). El máximo histórico fue 2024 con 928,295 unidades.
+
+2. Datos principales
+- 2015: 512,186 unidades
+- 2016: 606,731 unidades (+18.5% vs año anterior)
+- 2017: 624,091 unidades (+2.9% vs año anterior)
+- 2018: 612,465 unidades (-1.9% vs año anterior)
+- 2019: 596,278 unidades (-2.6% vs año anterior)
+- 2020: 445,347 unidades (-25.3% vs año anterior)
+- 2021: 526,628 unidades (+18.2% vs año anterior)
+- 2022: 648,969 unidades (+23.2% vs año anterior)
+- 2023: 820,409 unidades (+26.4% vs año anterior)
+- 2024: 928,295 unidades (+13.2% vs año anterior)
+
+3. Interpretación
+La tendencia de ventas de camiones refleja los ciclos de la economía mexicana, la disponibilidad de crédito automotriz y los cambios en la demanda. La caída de 2020 (445,347 unidades) coincide con el impacto de la pandemia de COVID-19 sobre la cadena de producción y distribución automotriz.
+
+4. Limitaciones
+- Los datos VMRC cubren vehículos en circulación; no incluye el mercado nuevo.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado seminuevo.
+- Desde 2012, el VMRC separa 'camiones' del 'resto de camiones'; esta división puede desglosar subcategorías menos claras."
+32,comparacion_accidentes,"1. Resumen
+En el período 1997-2024, Aguascalientes acumuló más accidentes (309,261) que Zacatecas (133,678). En 2024: Aguascalientes registró 4,284 y Zacatecas 2,724 accidentes.
+
+2. Datos principales
+- 1997: Aguascalientes 11,199 vs Zacatecas 2,221 (dif. Aguascalientes: +8,978)
+- 2001: Aguascalientes 13,151 vs Zacatecas 3,054 (dif. Aguascalientes: +10,097)
+- 2005: Aguascalientes 12,232 vs Zacatecas 8,376 (dif. Aguascalientes: +3,856)
+- 2009: Aguascalientes 15,500 vs Zacatecas 5,771 (dif. Aguascalientes: +9,729)
+- 2013: Aguascalientes 10,966 vs Zacatecas 6,094 (dif. Aguascalientes: +4,872)
+- 2017: Aguascalientes 12,371 vs Zacatecas 5,065 (dif. Aguascalientes: +7,306)
+- 2021: Aguascalientes 13,254 vs Zacatecas 4,718 (dif. Aguascalientes: +8,536)
+- 2024: Aguascalientes 4,284 vs Zacatecas 2,724 (dif. Aguascalientes: +1,560)
+
+3. Interpretación
+Las diferencias entre Aguascalientes y Zacatecas reflejan distintos volúmenes de tráfico, densidad urbana y cobertura del ATUS. El estado con mayor número absoluto de accidentes no implica necesariamente un mayor riesgo por habitante o por kilómetro recorrido.
+
+4. Limitaciones
+- La serie incluye un salto metodológico en 2022 que puede haber alterado la cobertura de reporte en algunas entidades, afectando la comparabilidad temporal.
+- Los datos cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- No se incluye normalización por población ni parque vehicular de cada entidad.","1. Resumen
+Aguascalientes encabezó el ranking de accidentes viales entre 1997 y 2024, con 111,991 incidentes registradas; seguida por Zacatecas con 22,210.
+
+2. Datos principales
+- 1997: 111,991 accidentes
+- 1998: 93,270 accidentes
+- 1999: 42,630 accidentes
+- 2000: 125,940 accidentes
+- 2001: 131,510 accidentes
+- 2002: 13,510 accidentes
+- 2003: 12,607 accidentes
+- 2004: 10,797 accidentes
+- 2005: 12,232 accidentes
+- 2006: 14,868 accidentes
+- 2007: 17,210 accidentes
+- 2008: 16,121 accidentes
+- 2009: 15,500 accidentes
+- 2010: 6,032 accidentes
+- 2011: 14,164 accidentes
+- 2012: 12,834 accidentes
+- 2013: 10,966 accidentes
+- 2014: 10,014 accidentes
+- 2015: 7,958 accidentes
+- 2016: 7,500 accidentes
+- 2017: 12,371 accidentes
+- 2018: 12,431 accidentes
+- 2019: 13,225 accidentes
+- 2020: 11,810 accidentes
+- 2021: 13,254 accidentes
+- 2022: 4,552 accidentes
+- 202"
+33,accidentes_por_municipio,"1. Resumen
+2020 es el municipio de Chihuahua con más accidentes viales registrados en 2020, con 2,818 incidentes.
+
+2. Datos principales
+- 1.° 2020: 2,818 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Chihuahua sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Chihuahua; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura.","1. Resumen
+2020 es el municipio de Chihuahua con más accidentes viales registrados en 2020, con 2,818 incidentes.
+
+2. Datos principales
+- 1.° 2020: 2,818 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Chihuahua sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Chihuahua; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura."
+34,tendencia_accidentes,"1. Resumen
+Campeche muestra una tendencia a la baja en accidentes viales entre 1997 y 2024, pasando de 9,830 a 3,800 incidentes (-61.3% en el período). El año pico fue 2008 con 20,369 accidentes.
+
+2. Datos principales
+- 1997: 9,830 accidentes
+- 2008: 20,369 accidentes (+29.3% vs año anterior)
+- 2024: 3,800 accidentes (-17.2% vs año anterior)
+
+3. Interpretación
+La evolución de 1997 a 2024 refleja cambios en la densidad vehicular, infraestructura vial y condiciones de movilidad en Campeche.
+
+4. Limitaciones
+- La serie histórica 1997-2024 incluye un salto metodológico en 2022: muchas entidades duplicaron o triplicaron sus cifras, probablemente por ampliación de la cobertura de reporte. Las comparaciones entre períodos pre y post 2022 deben interpretarse con cautela.
+- Los datos ATUS corresponden a zonas urbanas y suburbanas; la cobertura rural es limitada.","1. Resumen
+Campeche muestra una tendencia al alza en accidentes viales entre 1997 y 2024, pasando de 9,830 a 20,369 incidentes (+10,539%). El año con mayor cantidad fue 2000 (9,409); el mínimo fue 1998 (7,568).
+
+2. Datos principales
+- 1997: 9,830 accidentes
+- 1998: 7,568 accidentes (-23.0% vs año anterior)
+- 1999: 2,099 accidentes (-72.3% vs año anterior)
+- 2000: 9,409 accidentes (+348.3% vs año anterior)
+- 2001: 10,762 accidentes (+14.4% vs año anterior)
+- 2002: 14,820 accidentes (+37.7% vs año anterior)
+- 2003: 16,069 accidentes (+8.4% vs año anterior)
+- 2004: 18,336 accidentes (+14.1% vs año anterior)
+- 2005: 17,239 accidentes (-5.9% vs año anterior)
+- 2006: 16,727 accidentes (-2.9% vs año anterior)
+- 2007: 15,752 accidentes (-5.8% vs año anterior)
+- 2008: 20,369 accidentes (+29.3% vs año anterior)
+- 2009: 17,222 accidentes (-15.5% vs año anterior)
+- 2010: 4,599 accidentes (-73.3% vs año anterior)
+- 2011: 13,930 accidentes (+202.9% vs año anterior)
+- 2012: 15,076 accidentes (+8.2% vs año anterior)
+- 2013: 14,790 accident"
+35,ranking_accidentes,"1. Resumen
+En 2011, Nuevo León encabezó el ranking de accidentes viales con 27,805 incidentes registrados, seguida por Coahuila con 15,501.
+
+2. Datos principales
+- 1.° Nuevo León: 27,805 accidentes
+- 2.° Coahuila: 15,501 accidentes
+- 3.° Colima: 14,517 accidentes
+- 4.° Aguascalientes: 14,164 accidentes
+- 5.° Campeche: 13,930 accidentes
+
+3. Interpretación
+Las 5 entidades del ranking concentran 85,917 accidentes en 2011. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular.","1. Resumen
+En 2011, Nuevo León encabezó el ranking de accidentes viales con 27,805 incidentes registrados, seguida por Coahuila con 15,501.
+
+2. Datos principales
+- 1.° Nuevo León: 27,805 accidentes
+- 2.° Coahuila: 15,501 accidentes
+- 3.° Colima: 14,517 accidentes
+- 4.° Aguascalientes: 14,164 accidentes
+- 5.° Campeche: 13,930 accidentes
+
+3. Interpretación
+Las 5 entidades del ranking concentran 83,317 accidentes en 2011. Las zonas metropolitanas de alta densidad poblacional y tráfico vehicular tienden a acumular más incidentes. El volumen absoluto no refleja la tasa de accidentalidad por habitante ni por vehículo en circulación.
+
+4. Limitaciones
+- Los datos ATUS cubren zonas urbanas y suburbanas; los incidentes en carreteras rurales y federales pueden estar subrepresentados.
+- El ranking refleja volumen absoluto, no tasas por población ni parque vehicular."
+36,estacionalidad_ventas_nacional,"1. Resumen
+En 2019, el mes con más ventas de vehículos (autos y camiones) fue diciembre (134,404 unidades); abril registró el mínimo (102,190 unidades).
+
+2. Datos principales
+- Enero: 114,456 unidades
+- Febrero: 107,196 unidades
+- Marzo: 121,388 unidades
+- Abril: 102,190 unidades
+- Mayo: 106,335 unidades
+- Junio: 110,945 unidades
+- Julio: 109,487 unidades
+- Agosto: 111,161 unidades
+- Septiembre: 104,182 unidades
+- Octubre: 110,436 unidades
+- Noviembre: 127,891 unidades
+- Diciembre: 134,404 unidades
+
+3. Interpretación
+El patrón mensual de ventas en 2019 muestra variaciones asociadas a campañas comerciales (fin de año, bono anual), temporadas de alto tráfico y la disponibilidad de inventario en distribuidoras.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado de seminuevos.","1. Resumen
+En 2019, el mes con más ventas de vehículos (autos y camiones) fue diciembre (134,404 unidades); septiembre registró el mínimo (104,182 unidades).
+
+2. Datos principales
+- Enero: 114,456 unidades
+- Febrero: 107,196 unidades
+- Marzo: 121,388 unidades
+- Abril: 102,190 unidades
+- Mayo: 106,335 unidades
+- Junio: 110,945 unidades
+- Julio: 109,487 unidades
+- Agosto: 111,161 unidades
+- Septiembre: 104,182 unidades
+- Octubre: 110,436 unidades
+- Noviembre: 127,891 unidades
+- Diciembre: 134,404 unidades
+
+3. Interpretación
+El patrón mensual de ventas en 2019 muestra variaciones asociadas a campañas comerciales (fin de año, bono anual), temporadas de alto tráfico y la disponibilidad de inventario en distribuidoras.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado de seminuevos."
+37,resumen_estado,"1. Resumen
+Nuevo León acumuló 884,533 accidentes entre 1997 y 2024. El año con mayor incidencia fue 2023 (80,740). En 2024 se registraron 76,390 accidentes. El tipo de accidente más frecuente es «Colisión con vehículo automotor» (52.8% del total).
+
+2. Datos principales
+Tendencia anual:
+- 1997: 15,609 accidentes
+- 1998: 18,742 accidentes
+- 1999: 45,738 accidentes
+- 2000: 21,019 accidentes
+- 2001: 23,867 accidentes
+- 2002: 25,850 accidentes
+...
+- 2021: 18,943 accidentes
+- 2022: 76,761 accidentes
+- 2023: 80,740 accidentes
+- 2024: 76,390 accidentes
+
+Distribución por tipo (top 5):
+- Colisión con vehículo automotor: 466,268 (52.8%)
+- Colisión con peatón (atropellamiento): 225,466 (25.6%)
+- Certificado cero: 93,893 (10.6%)
+- Colisión con objeto fijo: 43,664 (5.0%)
+- Colisión con motocicleta: 20,343 (2.3%)
+
+3. Interpretación
+La evolución de accidentes en Nuevo León refleja cambios en la densidad vehicular, cobertura de reporte y condiciones de infraestructura vial. La concentración del 52.8% en «Colisión con vehículo automotor» sugiere un área prioritaria de intervención para política pública de seguridad vial.
+
+4. Limitaciones
+- La serie histórica incluye un salto metodológico en 2022 (probable cambio en cobertura de reporte): las comparaciones largas deben interpretarse con cautela.
+- Los datos ATUS cubren zonas urbanas y suburbanas; la cobertura rural es limitada.
+- El resumen no incluye tasas por habitante ni por vehículo en circulación.","1. Resumen
+Nuevo León acumuló 140,402 accidentes entre 1997 y 2024 (-14% vs año anterior). El año con mayor incidentes fue 1998 (18,742); el mínimo fue 2000 (21,019).
+
+2. Datos principales
+- 1997: 15,609 accidentes
+- 1998: 18,742 accidentes (+20.1% vs año anterior)
+- 1999: 45,738 accidentes (+144.0% vs año anterior)
+- 2000: 21,019 accidentes (-54.0% vs año anterior)
+- 2001: 23,867 accidentes (+13.6% vs año anterior)
+- 2002: 25,850 accidentes (+8.3% vs año anterior)
+- 2003: 25,748 accidentes (-0.4% vs año anterior)
+- 2004: 26,793 accidentes (+4.1% vs año anterior)
+- 2005: 28,414 accidentes (+6.1% vs año anterior)
+- 2006: 28,698 accidentes (+1.0% vs año anterior)
+- 2007: 27,140 accidentes (-5.4% vs año anterior)
+- 2008: 26,614 accidentes (-1.9% vs año anterior)
+- 2009: 27,192 accidentes (+2.2% vs año anterior)
+- 2010: 75,486 accidentes (+177.6% vs año anterior)
+- 2011: 27,805 accidentes (-63.2% vs año anterior)
+- 2012: 24,964 accidentes (-10.2% vs año anterior)
+- 2013: 22,403 accidentes (-10.3% vs año anterior)
+- 2"
+38,estacionalidad_ventas_nacional,"1. Resumen
+En 2017, el mes con más ventas de vehículos (autos y camiones) fue diciembre (163,922 unidades); abril registró el mínimo (118,031 unidades).
+
+2. Datos principales
+- Enero: 127,502 unidades
+- Febrero: 121,175 unidades
+- Marzo: 140,877 unidades
+- Abril: 118,031 unidades
+- Mayo: 126,615 unidades
+- Junio: 131,226 unidades
+- Julio: 126,000 unidades
+- Agosto: 129,460 unidades
+- Septiembre: 120,171 unidades
+- Octubre: 127,178 unidades
+- Noviembre: 145,327 unidades
+- Diciembre: 163,922 unidades
+
+3. Interpretación
+El patrón mensual de ventas en 2017 muestra variaciones asociadas a campañas comerciales (fin de año, bono anual), temporadas de alto tráfico y la disponibilidad de inventario en distribuidoras.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado de seminuevos.","1. Resumen
+En 2017, el mes con más ventas de vehículos (autos y camiones) fue diciembre (163,922 unidades); septiembre registró el mínimo (120,171 unidades).
+
+2. Datos principales
+- Enero: 127,502 unidades
+- Febrero: 121,175 unidades
+- Marzo: 140,877 unidades
+- Abril: 118,031 unidades
+- Mayo: 126,615 unidades
+- Junio: 131,226 unidades
+- Julio: 126,000 unidades
+- Agosto: 129,460 unidades
+- Septiembre: 120,171 unidades
+- Octubre: 127,178 unidades
+- Noviembre: 145,327 unidades
+- Diciembre: 163,922 unidades
+
+3. Interpretación
+El patrón mensual de ventas en 2017 muestra variaciones asociadas a campañas comerciales (fin de año, bono anual), temporadas de alto tráfico y la disponibilidad de inventario en distribuidoras.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no permiten desglose por entidad federativa.
+- Las ventas corresponden a unidades nuevas registradas; no incluye el mercado de seminuevos."
+39,accidentes_por_municipio,"1. Resumen
+2017 es el municipio de Nayarit con más accidentes viales registrados (1997-2024), con 10,894 incidentes.
+
+2. Datos principales
+- 1.° 2017: 10,894 accidentes
+- 2.° 2019: 10,880 accidentes
+- 3.° 2018: 10,775 accidentes
+- 4.° 2021: 9,968 accidentes
+- 5.° 2007: 9,822 accidentes
+- 6.° 2020: 9,677 accidentes
+- 7.° 2016: 9,532 accidentes
+- 8.° 2008: 9,309 accidentes
+- 9.° 2006: 8,937 accidentes
+- 10.° 2009: 8,455 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Nayarit sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos corresponden a accidentes en zonas urbanas y suburbanas de Nayarit; incidentes en carreteras o zonas rurales pueden estar subrepresentados.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura.","1. Resumen
+2017 es el municipio de Nayarit con más accidentes viales registrados (19,975 incidentes).
+
+2. Datos principales
+- 1.° 2017: 19,975 accidentes
+- 2.° 2019: 10,880 accidentes
+- 3.° 2018: 10,775 accidentes
+- 4.° 2021: 9,968 accidentes
+- 5.° 2007: 9,822 accidentes
+- 6.° 2020: 9,677 accidentes
+- 7.° 2016: 9,532 accidentes
+- 8.° 2008: 9,309 accidentes
+- 9.° 2006: 8,937 accidentes
+- 10.° 2009: 8,455 accidentes
+
+3. Interpretación
+La concentración de accidentes en los municipios de mayor tráfico de Nayarit sugiere que las zonas urbanas y los corredores de alta circulación son los focos principales de siniestros. La inversión en infraestructura vial y señalización en estos municipios tendría mayor impacto relativo.
+
+4. Limitaciones
+- Los datos cubren todos los años disponibles desde 1997; no incluye el período anterior.
+- El total refleja el período disponible; no todos los años tienen la misma cobertura."
+40,relacion_ventas_accidentes_nacional,"1. Resumen
+Para el período 2019-2024, la correlación de Pearson entre ventas nacionales de camiones y accidentes viales es 0.849. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2019: ventas 596,278 unidades | accidentes 198,671
+- 2020: ventas 445,347 unidades | accidentes 168,059
+- 2021: ventas 526,628 unidades | accidentes 197,410
+- 2022: ventas 648,969 unidades | accidentes 392,710
+- 2023: ventas 820,409 unidades | accidentes 396,628
+- 2024: ventas 928,295 unidades | accidentes 390,627
+- Correlación de Pearson (2019-2024): 0.849
+
+3. Interpretación
+La correlación de Pearson es 0.849: asociación positiva considerable entre ventas de camiones y accidentes, aunque sin implicar causalidad directa. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales no se capturan.
+- Factores confusores (demografía, cobertura ATUS, pandemia 2020) no están controlados.
+- Correlación no implica causalidad: no se puede afirmar que las ventas vehiculares causen los accidentes.","1. Resumen
+Para el período 2019-2024, la correlación de Pearson entre ventas nacionales de camiones y accidentes viales es 0.849. Esta cifra estadística no implica causalidad.
+
+2. Datos principales
+- 2019: ventas 596,278 unidades | accidentes 198,671
+- 2020: ventas 445,347 unidades | accidentes 168,059
+- 2021: ventas 526,628 unidades | accidentes 197,410
+- 2022: ventas 648,969 unidades | accidentes 392,710
+- 2023: ventas 820,409 unidades | accidentes 396,628
+- 2024: ventas 928,295 unidades | accidentes 390,627
+- Correlación de Pearson (2019-2024): 0.849
+
+3. Interpretación
+La correlación de Pearson es 0.849: asociación positiva considerable entre ventas de camiones y accidentes, aunque sin implicar causalidad directa. La relación entre ventas vehiculares y accidentes está mediada por múltiples factores: tamaño del parque vehicular, infraestructura vial, comportamiento del conductor, políticas de seguridad vial y cobertura del sistema ATUS. La correlación no implica causalidad.
+
+4. Limitaciones
+- Los datos VMRC son nacionales; no es posible el desglose a nivel estatal.
+- Los accidentes ATUS se agregan a nivel nacional para este cruce; se pierde la variabilidad regional.
+- La correlación de Pearson asume relación lineal; relaciones no lineales pueden estar subrepresentadas.
+- Muchos otros factores influyen en los accidentes: tamaño del parque vehicular, infraestructura vial, políticas de seguridad vial, etc."
+41,tendencia_parque_nacional,"1. Resumen
+El parque vehicular nacional registrado pasó de 10,285,290 unidades en 1991 a 52,120,484 en 2024, un crecimiento de +406.7% en el período.
+
+2. Datos principales
+- 1991: 10,285,290 vehículos
+- 1994: 10,894,159 vehículos (-4.0% vs año anterior)
+- 1997: 12,358,538 vehículos (+7.2% vs año anterior)
+- 2000: 15,245,319 vehículos (+8.4% vs año anterior)
+- 2003: 19,296,603 vehículos (+5.2% vs año anterior)
+- 2006: 24,090,577 vehículos (+12.2% vs año anterior)
+- 2009: 29,565,481 vehículos (+5.2% vs año anterior)
+- 2012: 33,154,458 vehículos (+4.2% vs año anterior)
+- 2015: 37,201,026 vehículos (+4.5% vs año anterior)
+- 2018: 43,555,465 vehículos (+3.4% vs año anterior)
+- 2024: 52,120,484 vehículos (+3.8% vs año anterior)
+
+3. Interpretación
+El crecimiento sostenido del parque vehicular refleja la motorización progresiva de la población mexicana, impulsada por el acceso al crédito automotriz y el incremento del ingreso familiar. Este aumento es un factor estructural relevante al analizar la accidentalidad vial.
+
+4. Limitaciones
+- El parque vehicular registrado puede diferir del parque activo real; vehículos sin verificación o en rezago administrativo pueden estar incluidos.
+- Los datos son nacionales; no permiten desglose por entidad federativa.
+- Los datos de 2025 y 2026 son preliminares y han sido excluidos de este análisis.","1. Resumen
+El parque vehicular en circulación pasó de 1,028,529,000 unidades en 1991 a 5,212,048,400 en 2024 (+4,183,519,400 unidades). El máximo histórico fue 2024 con 5,212,048,400 unidades.
+
+2. Datos principales
+- 1991: 1,028,529,000 unidades
+- 1992: 1,092,932,500 unidades (+6.26% vs año anterior)
+- 1993: 1,134,686,700 unidades (+3.82% vs año anterior)
+- 1994: 1,089,415,900 unidades (-3.99% vs año anterior)
+- 1995: 1,114,090,800 unidades (+2.26% vs año anterior)
+- 1996: 1,152,826,500 unidades (+3.48% vs año anterior)
+- 1997: 1,235,853,800 unidades (+7.20% vs año anterior)
+- 1998: 1,326,631,500 unidades (+7.35% vs año anterior)
+- 1999: 1,406,178,800 unidades (+6.00% vs año anterior)
+- 2000: 1,524,531,900 unidades (+8.42% vs año anterior)
+- 2001: 1,694,610,800 unidades (+11.16% vs año anterior)
+- 2002: 1,833,688,600 unidades (+8.21% vs año anterior)
+- 2003: 1,929,660,300 unidades (+5.23% vs año"

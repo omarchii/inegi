@@ -1,0 +1,49 @@
+# Datos crudos (pueden ser pesados o tener restricciones de redistribución)
+data/raw/*
+!data/raw/.gitkeep
+
+# Datos procesados (regenerables)
+data/processed/*
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Modelos / checkpoints (pueden ser muy pesados)
+models/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs y artefactos temporales
+*.log
+tmp/
