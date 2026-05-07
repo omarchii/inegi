@@ -1,10 +1,10 @@
-"""Genera la presentación pitch de Vialitycs MX.
+"""Builds the Vialitycs MX pitch deck (English).
 
-Salida: reports/presentacion_vialitycs_mx.pptx
+Output: reports/presentacion_vialitycs_mx.pptx
 
-Tokens visuales (inspirados en reports/reference.pptx):
-- Fondo negro (#000000)
-- Acento lime (#C1FF72)
+Visual tokens (inspired by reports/reference.pptx):
+- Black background (#000000)
+- Lime accent (#C1FF72)
 - Display: RQND Pro Wide
 - Body: Fira Code
 """
@@ -20,20 +20,20 @@ from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.util import Inches, Pt
 
 
-# ---------- Paleta dark ----------
+# ---------- Palette ----------
 BLACK = RGBColor(0x00, 0x00, 0x00)
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)
 LIME = RGBColor(0xC1, 0xFF, 0x72)
-DARK_SURFACE = RGBColor(0x12, 0x12, 0x12)   # cards/superficies sutiles
-MID_SURFACE = RGBColor(0x1C, 0x1C, 0x1C)    # cards más elevadas
-BORDER = RGBColor(0x33, 0x33, 0x33)         # bordes
-MUTED = RGBColor(0x9A, 0x9A, 0x9A)          # texto secundario
+DARK_SURFACE = RGBColor(0x12, 0x12, 0x12)
+MID_SURFACE = RGBColor(0x1C, 0x1C, 0x1C)
+BORDER = RGBColor(0x33, 0x33, 0x33)
+MUTED = RGBColor(0x9A, 0x9A, 0x9A)
 
-# ---------- Tipografía ----------
+# ---------- Typography ----------
 DISPLAY_FONT = "RQND Pro Wide"
 BODY_FONT = "Fira Code"
 
-# ---------- Geometría ----------
+# ---------- Geometry ----------
 SLIDE_W = Inches(13.333)
 SLIDE_H = Inches(7.5)
 
@@ -53,8 +53,7 @@ def set_line(shape, color: RGBColor, width_pt: float = 1.0) -> None:
 
 
 def set_slide_bg(slide, color: RGBColor = BLACK) -> None:
-    bg = slide.background
-    fill = bg.fill
+    fill = slide.background.fill
     fill.solid()
     fill.fore_color.rgb = color
 
@@ -82,7 +81,6 @@ def add_textbox(
     tf.margin_right = Inches(0)
     tf.margin_top = Inches(0)
     tf.margin_bottom = Inches(0)
-    # Soporte para varias líneas (separadas por \n)
     lines = text.split("\n")
     for i, line in enumerate(lines):
         p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
@@ -120,7 +118,6 @@ def add_bullets(
         p.alignment = PP_ALIGN.LEFT
         p.line_spacing = line_spacing
         p.space_after = Pt(8)
-        # Bullet en lime, texto en color
         bullet_run = p.add_run()
         bullet_run.text = "▍ "
         bullet_run.font.name = BODY_FONT
@@ -147,7 +144,6 @@ def add_rect(slide, left, top, width, height, *, fill=DARK_SURFACE, line=None, l
 
 
 def add_brand_strip(slide):
-    """Marca superior: 'VIALITYCS MX' + dot lime."""
     add_textbox(
         slide,
         Inches(0.5),
@@ -160,7 +156,6 @@ def add_brand_strip(slide):
         color=WHITE,
         font_name=DISPLAY_FONT,
     )
-    # Dot lime
     dot = slide.shapes.add_shape(
         MSO_SHAPE.OVAL, Inches(2.0), Inches(0.45), Inches(0.1), Inches(0.1)
     )
@@ -175,7 +170,7 @@ def add_page_footer(slide, page: int, total: int):
         Inches(7.18),
         Inches(8),
         Inches(0.25),
-        "PROCESAMIENTO DE DATOS · OMAR CHI · VICTOR FIGUEREDO",
+        "DATA PROCESSING · OMAR CHI · VICTOR FIGUEREDO",
         font_size=8,
         color=MUTED,
     )
@@ -221,7 +216,6 @@ def add_slide_title(slide, title: str, kicker: str | None = None, *, title_top: 
         color=WHITE,
         font_name=DISPLAY_FONT,
     )
-    # Línea acento debajo del título
     add_rect(
         slide,
         Inches(0.5),
@@ -235,7 +229,6 @@ def add_slide_title(slide, title: str, kicker: str | None = None, *, title_top: 
 def add_placeholder(
     slide, left, top, width, height, label: str, *, sublabel: str | None = None
 ):
-    """Caja oscura con borde lime para insertar imágenes/video."""
     rect = add_rect(
         slide,
         left,
@@ -246,7 +239,7 @@ def add_placeholder(
         line=LIME,
         line_width=1.25,
     )
-    rect.line.dash_style = 7  # DASH
+    rect.line.dash_style = 7
     label_box = slide.shapes.add_textbox(left, top, width, height)
     tf = label_box.text_frame
     tf.word_wrap = True
@@ -279,8 +272,6 @@ def slide_cover(prs):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
 
-    # Banda izquierda con texto, derecha con placeholder hero
-    # Línea acento vertical
     add_rect(slide, Inches(6.4), Inches(0.7), Inches(0.04), Inches(6.1), fill=LIME)
 
     add_textbox(
@@ -289,12 +280,11 @@ def slide_cover(prs):
         Inches(0.7),
         Inches(5),
         Inches(0.3),
-        "PITCH · MAYO 2026",
+        "PITCH · MAY 2026",
         font_size=10,
         bold=True,
         color=LIME,
     )
-    # Título grande
     add_textbox(
         slide,
         Inches(0.5),
@@ -313,7 +303,7 @@ def slide_cover(prs):
         Inches(4.6),
         Inches(5.7),
         Inches(1.0),
-        "Inteligencia accionable sobre datos\npúblicos de movilidad y siniestralidad\nvial en México.",
+        "Actionable intelligence on Mexico's\npublic road traffic and vehicle data.",
         font_size=14,
         color=WHITE,
     )
@@ -323,13 +313,12 @@ def slide_cover(prs):
         Inches(6.7),
         Inches(5.7),
         Inches(0.3),
-        "PROCESAMIENTO DE DATOS",
+        "DATA PROCESSING",
         font_size=10,
         color=MUTED,
         bold=True,
     )
 
-    # Lado derecho: hero placeholder + autores
     add_placeholder(
         slide,
         Inches(7.0),
@@ -337,7 +326,7 @@ def slide_cover(prs):
         Inches(5.85),
         Inches(4.2),
         "[ HERO IMAGE / LOGO ]",
-        sublabel="Sugerido: render de tráfico, choque o mapa MX. 1600 × 900 px.",
+        sublabel="Suggested: traffic render, crash photo or MX map. 1600 × 900 px.",
     )
     add_textbox(
         slide,
@@ -345,7 +334,7 @@ def slide_cover(prs):
         Inches(5.2),
         Inches(5.85),
         Inches(0.3),
-        "PRESENTAN",
+        "PRESENTED BY",
         font_size=10,
         bold=True,
         color=LIME,
@@ -380,25 +369,22 @@ def slide_problem(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "Los datos existen.\nNadie los puede usar.", kicker="01 · El problema")
+    add_slide_title(slide, "The data exists.\nNobody can use it.", kicker="01 · The problem")
 
-    # Layout: izquierda imagen choque, derecha stats + bullets
-    # Imagen choque a la izquierda
     add_placeholder(
         slide,
         Inches(0.5),
         Inches(3.4),
         Inches(5.5),
         Inches(3.4),
-        "[ IMAGEN DE CHOQUE / TRÁFICO ]",
-        sublabel="Para amenizar. Sugerido: foto editorial, alto contraste, en blanco y negro.",
+        "[ CRASH / TRAFFIC IMAGE ]",
+        sublabel="To liven things up. Suggested: editorial photo, high contrast, B&W.",
     )
 
-    # Stats a la derecha (3 bloques verticales)
     stats = [
-        ("28", "años de datos ATUS sin explotar (1997–2024)"),
-        ("32", "entidades · miles de municipios"),
-        ("23/28", "archivos con bug de año (ANIO=1)"),
+        ("28", "years of ATUS data left unused (1997–2024)"),
+        ("32", "states · thousands of municipalities"),
+        ("23/28", "files with broken year column (YEAR=1)"),
     ]
     top_y = 3.4
     for i, (big, small) in enumerate(stats):
@@ -435,13 +421,13 @@ def slide_audience(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "¿Quién necesita estas respuestas?", kicker="02 · A quién le duele")
+    add_slide_title(slide, "Who needs these answers?", kicker="02 · Who feels the pain")
 
     cards = [
-        ("Aseguradoras", "Dimensionar exposición y tarificar pólizas por estado y municipio."),
-        ("Gobiernos locales", "Priorizar inversión en seguridad vial con evidencia cuantitativa."),
-        ("Periodistas y OSC", "Contextualizar reportajes con cifras oficiales en minutos, no días."),
-        ("Equipos de movilidad", "Cruzar tendencias de ventas y parque vehicular con siniestralidad."),
+        ("Insurers", "Size exposure and price policies by state and municipality."),
+        ("Local governments", "Prioritize road-safety investment with quantitative evidence."),
+        ("Journalists & NGOs", "Ground stories in official figures in minutes, not days."),
+        ("Mobility teams", "Cross sales and fleet trends with crash data."),
     ]
     card_w = Inches(2.95)
     card_h = Inches(3.5)
@@ -496,11 +482,10 @@ def slide_solution(prs, page, total):
     add_brand_strip(slide)
     add_slide_title(
         slide,
-        "Pregunta en español.\nRecibe un análisis ejecutivo.",
-        kicker="03 · La solución",
+        "Ask in plain Spanish.\nGet an executive analysis.",
+        kicker="03 · The solution",
     )
 
-    # Mockup de pregunta
     left_x = Inches(0.5)
     top = Inches(3.0)
     add_rect(slide, left_x, top, Inches(6.2), Inches(0.85), fill=DARK_SURFACE)
@@ -522,11 +507,10 @@ def slide_solution(prs, page, total):
         Inches(5.7),
         Inches(0.5),
         "> ¿Qué estados tuvieron más accidentes en 2023?",
-        font_size=13,
+        font_size=12,
         color=WHITE,
     )
 
-    # Respuesta
     resp_top = Inches(4.0)
     add_rect(slide, left_x, resp_top, Inches(6.2), Inches(2.85), fill=MID_SURFACE)
     add_rect(slide, left_x, resp_top, Inches(0.08), Inches(2.85), fill=LIME)
@@ -541,14 +525,14 @@ def slide_solution(prs, page, total):
         bold=True,
         color=LIME,
     )
-    secciones = [
-        ("Resumen", "ranking nacional 2023 con cifras oficiales."),
-        ("Datos", "top 5 estados con totales reales."),
-        ("Interpretación", "lectura sin afirmar causalidad."),
-        ("Limitaciones", "salto metodológico ATUS 2022."),
+    sections = [
+        ("Summary", "national 2023 ranking with official figures."),
+        ("Data", "top 5 states with real totals."),
+        ("Interpretation", "narrative without claiming causality."),
+        ("Limitations", "ATUS 2022 methodology break."),
     ]
     y = resp_top + Inches(0.55)
-    for titulo, desc in secciones:
+    for titulo, desc in sections:
         add_textbox(
             slide,
             left_x + Inches(0.3),
@@ -572,14 +556,13 @@ def slide_solution(prs, page, total):
         )
         y += Inches(0.55)
 
-    # Bullets de valor a la derecha
     add_textbox(
         slide,
         Inches(7.0),
         Inches(2.95),
         Inches(5.85),
         Inches(0.5),
-        "Lo que entrega Vialitycs MX",
+        "What Vialitycs MX delivers",
         font_size=18,
         bold=True,
         color=WHITE,
@@ -592,11 +575,11 @@ def slide_solution(prs, page, total):
         Inches(5.85),
         Inches(3.5),
         [
-            "Cobertura ATUS 1997–2024 por entidad y municipio.",
-            "VMRC nacional: ventas y parque vehicular.",
-            "Respuesta estructurada en 4 secciones fijas.",
-            "Cero alucinaciones numéricas — pandas calcula, LLM redacta.",
-            "App web Streamlit lista, extensible a API.",
+            "ATUS coverage 1997–2024 by state and municipality.",
+            "VMRC national: vehicle sales and active fleet.",
+            "Structured response in 4 fixed sections.",
+            "Zero numeric hallucinations — pandas computes, the LLM writes.",
+            "Working Streamlit web app, ready to extend to API.",
         ],
         font_size=12,
     )
@@ -608,7 +591,7 @@ def slide_demo(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "Vialitycs MX en acción", kicker="04 · Demo")
+    add_slide_title(slide, "Vialitycs MX in action", kicker="04 · Demo")
 
     add_placeholder(
         slide,
@@ -616,8 +599,8 @@ def slide_demo(prs, page, total):
         Inches(2.4),
         Inches(11.3),
         Inches(4.5),
-        "[ INSERTA AQUÍ EL VIDEO DEMO ]",
-        sublabel="Insertar > Video > Este dispositivo. Reproducción automática recomendada.",
+        "[ INSERT DEMO VIDEO HERE ]",
+        sublabel="Insert > Video > This device. Auto-play recommended.",
     )
 
     add_page_footer(slide, page, total)
@@ -627,19 +610,19 @@ def slide_trust(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "Diseñado para no mentir.", kicker="05 · Por qué confiar en las cifras")
+    add_slide_title(slide, "Built to never lie.", kicker="05 · Why trust the numbers")
 
-    pilares = [
-        ("01", "Nunca calcula", "Todas las métricas se computan en pandas con datos oficiales. El modelo solo redacta."),
-        ("02", "Nunca inventa", "El LLM solo cita lo que recibe en el prompt. Sin acceso libre a su memoria."),
-        ("03", "Nunca afirma causa", "Habla de correlación o asociación. Está prohibido por diseño afirmar “causa”."),
+    pillars = [
+        ("01", "Never calculates", "Every metric is computed in pandas on official INEGI data. The model only writes."),
+        ("02", "Never invents", "The LLM only cites what arrives in the prompt. No free access to its memory."),
+        ("03", "Never claims cause", "It speaks of correlation or association. Claiming “cause” is forbidden by design."),
     ]
     card_w = Inches(3.95)
     card_h = Inches(3.3)
     gap = Inches(0.2)
     start_x = Inches(0.5)
     top = Inches(2.7)
-    for i, (num, titulo, desc) in enumerate(pilares):
+    for i, (num, titulo, desc) in enumerate(pillars):
         x = start_x + (card_w + gap) * i
         add_rect(slide, x, top, card_w, card_h, fill=DARK_SURFACE, line=BORDER, line_width=1.0)
         add_textbox(
@@ -683,7 +666,7 @@ def slide_trust(prs, page, total):
         Inches(6.4),
         Inches(12.3),
         Inches(0.5),
-        "“ Si el dato no está en INEGI, Vialitycs no lo dice. ”",
+        "“ If the data isn't in INEGI, Vialitycs won't say it. ”",
         font_size=15,
         bold=True,
         color=LIME,
@@ -698,17 +681,17 @@ def slide_architecture(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "Cómo funciona", kicker="06 · Arquitectura")
+    add_slide_title(slide, "How it works", kicker="06 · Architecture")
 
-    pasos = [
-        ("Pregunta\nen español", "“Top 5 en\n2023”"),
-        ("Detección\nintención", "intent +\nslots"),
-        ("Cálculo\nen pandas", "datos\nINEGI"),
-        ("Construcción\nde prompt", "datos +\ninstrucciones"),
-        ("LLM\nfine-tuneado", "Qwen-1.5B\n+ LoRA"),
-        ("Respuesta\nejecutiva", "4 secciones\nestándar"),
+    steps = [
+        ("User\nquestion", "“Top 5 in\n2023”"),
+        ("Intent\ndetection", "intent +\nslots"),
+        ("Pandas\ncomputation", "INEGI\ndata"),
+        ("Prompt\nbuilding", "data +\nrules"),
+        ("Fine-tuned\nLLM", "Qwen-1.5B\n+ LoRA"),
+        ("Executive\nanswer", "4 standard\nsections"),
     ]
-    n = len(pasos)
+    n = len(steps)
     total_w = Inches(12.3)
     start_x = Inches(0.5)
     top = Inches(2.9)
@@ -716,10 +699,9 @@ def slide_architecture(prs, page, total):
     box_h = Inches(2.0)
     gap = (total_w - box_w * n) / (n - 1)
 
-    for i, (titulo, sub) in enumerate(pasos):
+    for i, (titulo, sub) in enumerate(steps):
         x = start_x + (box_w + gap) * i
         add_rect(slide, x, top, box_w, box_h, fill=DARK_SURFACE, line=BORDER, line_width=1.0)
-        # Stripe lime arriba
         add_rect(slide, x, top, box_w, Inches(0.08), fill=LIME)
         add_textbox(
             slide,
@@ -745,7 +727,6 @@ def slide_architecture(prs, page, total):
             color=MUTED,
             align=PP_ALIGN.CENTER,
         )
-        # Flecha lime
         if i < n - 1:
             arrow = slide.shapes.add_shape(
                 MSO_SHAPE.RIGHT_ARROW,
@@ -763,7 +744,7 @@ def slide_architecture(prs, page, total):
         Inches(5.5),
         Inches(12.3),
         Inches(0.5),
-        "Las cifras nacen en pandas. El LLM solo redacta.",
+        "Numbers come from pandas. The LLM only writes.",
         font_size=15,
         bold=True,
         color=LIME,
@@ -778,13 +759,13 @@ def slide_use_cases(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "¿Qué puede responder hoy?", kicker="07 · Casos de uso")
+    add_slide_title(slide, "What can it answer today?", kicker="07 · Use cases")
 
-    preguntas = [
-        "Top 5 estados con más accidentes en 2023.",
-        "Tendencia de accidentes en Yucatán entre 2015 y 2024.",
-        "Comparar CDMX vs Jalisco en 2022.",
-        "¿Las ventas de vehículos se relacionan con los accidentes?",
+    questions = [
+        "Top 5 states with the most crashes in 2023.",
+        "Crash trend in Yucatán between 2015 and 2024.",
+        "Compare CDMX vs Jalisco in 2022.",
+        "Are vehicle sales linked to crashes?",
     ]
     add_textbox(
         slide,
@@ -792,14 +773,14 @@ def slide_use_cases(prs, page, total):
         Inches(2.7),
         Inches(5.8),
         Inches(0.5),
-        "Preguntas tipo soportadas",
+        "Supported question types",
         font_size=16,
         bold=True,
         color=WHITE,
         font_name=DISPLAY_FONT,
     )
     y = Inches(3.3)
-    for q in preguntas:
+    for q in questions:
         add_rect(slide, Inches(0.5), y, Inches(5.8), Inches(0.78), fill=DARK_SURFACE)
         add_rect(slide, Inches(0.5), y, Inches(0.06), Inches(0.78), fill=LIME)
         add_textbox(
@@ -820,8 +801,8 @@ def slide_use_cases(prs, page, total):
         Inches(2.7),
         Inches(5.85),
         Inches(4.2),
-        "[ SCREENSHOTS DE LA APP ]",
-        sublabel="Sugerido: 1 captura del prompt + 1 captura de la respuesta.",
+        "[ APP SCREENSHOTS ]",
+        sublabel="Suggested: 1 prompt screenshot + 1 response screenshot.",
     )
 
     add_page_footer(slide, page, total)
@@ -831,16 +812,18 @@ def slide_metrics(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "El fine-tune supera a los baselines.", kicker="08 · Resultados")
+    add_slide_title(slide, "Fine-tuning nearly doubles ROUGE-1.", kicker="08 · Results")
 
-    headers = ["Métrica", "FLAN-T5 base", "Qwen-1.5B vanilla", "Vialitycs (Qwen-LoRA)"]
+    headers = ["Metric", "FLAN-T5 base", "Qwen-1.5B vanilla", "Vialitycs (Qwen-LoRA)"]
+    # (label, flan, qwen, lora, winner_index_for_highlight or None)
+    # winner_index: 1 = flan col, 2 = qwen vanilla col, 3 = lora col, None = no highlight
     rows = [
-        ["ROUGE-1", "—", "—", "0.71"],
-        ["ROUGE-2", "—", "—", "0.64"],
-        ["ROUGE-L", "—", "—", "0.68"],
-        ["Secciones presentes (0–1)", "—", "—", "0.80"],
-        ["No-causalidad (cruce)", "—", "—", "1.00"],
-        ["Longitud media (palabras)", "—", "—", "160"],
+        ("ROUGE-1",                    "0.17",  "0.38",  "0.71",  3),
+        ("ROUGE-2",                    "0.03",  "0.12",  "0.64",  3),
+        ("ROUGE-L",                    "0.09",  "0.23",  "0.68",  3),
+        ("Sections present (0–1)",     "0.03",  "0.95",  "0.80",  2),
+        ("No-causality (correlation)", "1.00",  "1.00",  "1.00",  None),
+        ("Avg length (words)",         "124",   "161",   "160",   None),
     ]
     table_left = Inches(0.5)
     table_top = Inches(2.7)
@@ -866,13 +849,16 @@ def slide_metrics(prs, page, total):
 
     # Data rows
     for r_idx, row in enumerate(rows):
+        label, flan, qwen, lora, winner = row
+        cells = [label, flan, qwen, lora]
         x = table_left
         y = table_top + row_h * (r_idx + 1)
         bg = DARK_SURFACE if r_idx % 2 == 0 else MID_SURFACE
-        for i, cell in enumerate(row):
+        for i, cell in enumerate(cells):
             add_rect(slide, x, y, col_widths[i], row_h, fill=bg)
-            color = LIME if i == 3 and cell != "—" else WHITE
-            bold = i == 3
+            is_winner = winner is not None and i == winner
+            color = LIME if is_winner else WHITE
+            bold = is_winner or i == 0
             add_textbox(
                 slide,
                 x + Inches(0.15),
@@ -892,7 +878,7 @@ def slide_metrics(prs, page, total):
         Inches(6.45),
         Inches(12.3),
         Inches(0.4),
-        "Completa los baselines con tus números si quieres mostrar el delta exacto.",
+        "Test set: 42 held-out questions. ROUGE measured without stemmer. Higher is better.",
         font_size=9,
         color=MUTED,
     )
@@ -904,15 +890,15 @@ def slide_traction(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "No es una idea: ya está construido.", kicker="09 · Tracción")
+    add_slide_title(slide, "Not just an idea — it's already built.", kicker="09 · Traction")
 
     items = [
-        ("Pipeline ETL", "28 años de ATUS y VMRC, reproducible en una línea."),
-        ("Dataset curado", "425 ejemplos de entrenamiento (train · val · test)."),
-        ("Modelo propio", "Qwen2.5-1.5B fine-tuneado con QLoRA en Colab."),
-        ("App funcional", "Streamlit end-to-end con el modelo cargado."),
-        ("Documentación", "Plan por etapas y notas para retomar / extender."),
-        ("Validación", "Test set independiente con 6 métricas automáticas."),
+        ("ETL pipeline", "28 years of ATUS and VMRC, reproducible in one command."),
+        ("Curated dataset", "425 training examples (train · val · test)."),
+        ("Own model", "Qwen2.5-1.5B fine-tuned with QLoRA on Colab."),
+        ("Working app", "End-to-end Streamlit with the model loaded."),
+        ("Documentation", "Stage-by-stage plan and notes to resume / extend."),
+        ("Validation", "Independent test set with 6 automated metrics."),
     ]
     cols = 3
     card_w = Inches(4.05)
@@ -958,23 +944,22 @@ def slide_roadmap(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "Hacia dónde va Vialitycs MX", kicker="10 · Roadmap")
+    add_slide_title(slide, "Where Vialitycs MX is headed", kicker="10 · Roadmap")
 
-    fases = [
-        ("HOY", "MVP académico funcional con cobertura nacional."),
-        ("Q3 2026", "Cobertura estatal en VMRC + integración DENUE."),
-        ("Q4 2026", "Exportable a PDF · API REST · multi-usuario."),
-        ("2027", "Versión institucional con autenticación y SLA."),
+    phases = [
+        ("TODAY", "Functional academic MVP with national coverage."),
+        ("Q3 2026", "State-level VMRC coverage + DENUE integration."),
+        ("Q4 2026", "Export to PDF · REST API · multi-user."),
+        ("2027", "Enterprise version with authentication and SLA."),
     ]
-    n = len(fases)
+    n = len(phases)
     line_y = Inches(4.0)
     add_rect(slide, Inches(0.5), line_y, Inches(12.3), Inches(0.04), fill=LIME)
 
     box_w = Inches(2.9)
     gap = (Inches(12.3) - box_w * n) / (n - 1)
-    for i, (cuando, desc) in enumerate(fases):
+    for i, (when, desc) in enumerate(phases):
         x = Inches(0.5) + (box_w + gap) * i
-        # Punto sobre la línea
         dot = slide.shapes.add_shape(
             MSO_SHAPE.OVAL,
             x + box_w / 2 - Inches(0.14),
@@ -984,21 +969,19 @@ def slide_roadmap(prs, page, total):
         )
         set_fill(dot, LIME)
         set_no_line(dot)
-        # Etiqueta arriba
         add_textbox(
             slide,
             x,
             Inches(2.85),
             box_w,
             Inches(0.5),
-            cuando,
+            when,
             font_size=18,
             bold=True,
             color=LIME,
             align=PP_ALIGN.CENTER,
             font_name=DISPLAY_FONT,
         )
-        # Descripción abajo
         add_textbox(
             slide,
             x,
@@ -1018,19 +1001,19 @@ def slide_stack(prs, page, total):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_slide_bg(slide)
     add_brand_strip(slide)
-    add_slide_title(slide, "Stack abierto, costo cero.", kicker="11 · Tecnología")
+    add_slide_title(slide, "Open stack, zero cost.", kicker="11 · Technology")
 
     items_left = [
         "Python · pandas · Streamlit",
         "Hugging Face Transformers · PEFT (LoRA)",
-        "Modelo base Qwen2.5-1.5B-Instruct (Apache 2.0)",
-        "Entrenamiento Google Colab T4 (gratis)",
+        "Base model Qwen2.5-1.5B-Instruct (Apache 2.0)",
+        "Trained on Google Colab T4 (free tier)",
     ]
     items_right = [
-        "100% open source — sin vendor lock-in.",
-        "Inferencia local en hardware modesto (RTX 3060 Ti).",
-        "Sin dependencias de APIs de pago.",
-        "Reproducible: pipeline + training en un comando.",
+        "100% open source — no vendor lock-in.",
+        "Local inference on modest hardware (RTX 3060 Ti).",
+        "No paid-API dependencies.",
+        "Reproducible: pipeline + training in one command.",
     ]
     add_textbox(
         slide,
@@ -1038,7 +1021,7 @@ def slide_stack(prs, page, total):
         Inches(2.7),
         Inches(5.8),
         Inches(0.5),
-        "Componentes",
+        "Components",
         font_size=18,
         bold=True,
         color=LIME,
@@ -1059,7 +1042,7 @@ def slide_stack(prs, page, total):
         Inches(2.7),
         Inches(5.85),
         Inches(0.5),
-        "Implicaciones de negocio",
+        "Business implications",
         font_size=18,
         bold=True,
         color=LIME,
@@ -1100,13 +1083,12 @@ def slide_close(prs):
         Inches(2.0),
         Inches(12.3),
         Inches(2.0),
-        "Datos públicos.\nDecisiones privadas.",
+        "Public data.\nPrivate decisions.",
         font_size=64,
         bold=True,
         color=WHITE,
         font_name=DISPLAY_FONT,
     )
-    # Línea acento
     add_rect(slide, Inches(0.5), Inches(4.6), Inches(0.7), Inches(0.06), fill=LIME)
     add_textbox(
         slide,
@@ -1114,7 +1096,7 @@ def slide_close(prs):
         Inches(4.85),
         Inches(8),
         Inches(0.6),
-        "Gracias.",
+        "Thank you.",
         font_size=28,
         bold=True,
         color=LIME,
@@ -1136,7 +1118,7 @@ def slide_close(prs):
         Inches(5.95),
         Inches(8),
         Inches(0.5),
-        "Procesamiento de Datos · Mayo 2026",
+        "Data Processing · May 2026",
         font_size=11,
         color=MUTED,
     )
@@ -1147,8 +1129,8 @@ def slide_close(prs):
         Inches(2.0),
         Inches(3.55),
         Inches(3.55),
-        "[ QR / CONTACTO ]",
-        sublabel="Inserta foto, código QR o enlace a repositorio.",
+        "[ QR / CONTACT ]",
+        sublabel="Insert photo, QR code or repository link.",
     )
 
 
