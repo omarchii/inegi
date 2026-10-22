@@ -104,8 +104,7 @@ inegi-ai-assistant/
 │   └── utils.py               # rutas + normalización entidades
 ├── training_data/, reports/
 ├── requirements.txt
-├── README.md
-└── CLAUDE.md
+└── README.md
 ```
 
 ## Funciones disponibles (analytics.py)
